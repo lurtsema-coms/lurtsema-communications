@@ -163,22 +163,22 @@
         </div>
         <div class="row mt-5">
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Cut Loose AK.jpg') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Cut Loose AK.jpg') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/ATOM Center.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/ATOM Center.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Muldoon Pizza1.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Muldoon Pizza1.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Mile 5.2 Greenhouse.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Mile 5.2 Greenhouse.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
             </div>
         </div>
         <div id="political-clients" class="client-type my-3 d-flex flex-column justify-content-center align-items-center">
@@ -187,22 +187,22 @@
         </div>
         <div class="row mt-5">
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Craig Johnson.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Cut Loose AK.jpg') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Doug Massie.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/ATOM Center.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Kelly Merrick.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Muldoon Pizza1.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Cathy Tilton.jpg') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Mile 5.2 Greenhouse.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Forrest Wolfe.png') }}" alt="">
             </div>
             <div class="col-md-2">
-                <img class="img-fluid client-photo" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
+                <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Alina Rubeo.jpg') }}" alt="">
             </div>
         </div>
     </div>
