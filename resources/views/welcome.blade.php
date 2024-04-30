@@ -9,9 +9,27 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     @php
         $background_url = asset('images/BG.png');
+        $font_url = asset('font/Bebas Neue.ttf');
     @endphp
+    <style>
+        @font-face {
+            font-family: "Bebas Neue";
+            src: url("{{ $font_url }}") format("truetype");
+        }
+
+        .besbas {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .arial {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
-<body style="background-image: url('{{ $background_url }}'); background-repeat: no-repeat; background-size: cover;">
+<body style="background-image: url('{{ $background_url }}'); background-repeat: repeat; background-size: cover;">
+    <div id="hero-background">
+        <img id="hero-background-image" src="{{ asset('images/KNYA6641.jpg') }}" alt="">
+    </div>
     <div id="nav-bar-container" class="sticky-top">
         <div class="container">
             @include('components.nav-bar')
@@ -20,10 +38,10 @@
     <div class="container">
         <section id="hero-section mx-5 my-5">
             <div class="mt-5">
-                <h3 class="fw-bold text-center hero-text hero-text-small">MARKETING THAT SHAPES</h3>
-                <h1 class="fw-bold text-center hero-text hero-text-big">YOUR SUCCESS</h1>
+                <h3 class="text-center hero-text hero-text-small arial">MARKETING THAT SHAPES</h3>
+                <h1 class="text-center hero-text hero-text-big besbas">YOUR SUCCESS</h1>
             </div>
-            <div id="client-numbers" class="py-5 d-flex justify-content-around gap-5 align-items-center flex-wrap mt-5">
+            <div id="client-numbers" class="py-5 d-flex justify-content-around gap-5 align-items-center flex-wrap">
                 <div class="client-card">
                     <h3 class="number-figure text-white">205<span class="number-plus fw-light">+</span></h3>
                     <p class="number-text text-white text-center">Happy Clients</p>
@@ -33,8 +51,8 @@
                     <p class="number-text text-white text-center">Active Customers</p>
                 </div>
                 <div class="client-card">
-                    <h3 class="number-figure text-white">205<span class="number-plus fw-light">+</span></h3>
-                    <p class="number-text text-white text-center">Happy Clients</p>
+                    <h3 class="number-figure text-white">100<span class="number-plus fw-light">+</span></h3>
+                    <p class="number-text text-white text-center">Campaigns Won</p>
                 </div>
             </div>
         </section>
@@ -45,7 +63,7 @@
             Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the
             stage, out tema is dedicated to elevating your message and amplifying your voice.
             </p>
-            <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-2">Find out more</a>
+            <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
         </section>
         <section id="founder" class="d-flex flex-column align-items-center">
             <div id="founder-box" class="row rounded-5 py-5 px-3">
@@ -58,66 +76,68 @@
                     <p class="text-white mb-3">
                         Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.
                     </p>
-                    <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-2 my-5">Consult now!</a>
+                    <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-5">Consult now!</a>
                 </div>
             </div>
         </section>
         <section id="services" class="my-5">
             <h1 class="text-white fw-bold">Our services</h1>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium a nihil iste? Odio quae nemo debitis, veniam voluptate cupiditate unde enim sapiente porro repellendus voluptates rerum neque impedit maxime omnis?
+            <p class="text-white mb-3">
+                We specialize in delivering comprehensive marketing solutions and creative services </br>
+                tailored to elevate your brands's presence in today's competetive landscape.
             </p>
             <div id="service-cards container">
-                <div id="service-card-wrapper" class="row g-3 justify-content-between">
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                <div id="service-card-wrapper" class="row row-cols-3 row-cols-lg-5 justify-content-between gap-4">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
                         </div>
                         <h5 class="text-white fw-semibold">Business Consulting</h5>
                         <p class="text-white">Let our team of experts help your business operations and maximize your profits.</p>
                     </div>
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_13.png') }}" alt="">
                         </div>
                         <h5 class="text-white fw-semibold">Social Media Marketing</h5>
                         <p class="text-white">We can hep you utilize all the social media out there to grow your business and connect with your audience.</p>
                     </div>
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_3.png') }}" alt="">
                         </div>
                         <h5 class="text-white fw-semibold">Website Development</h5>
                         <p class="text-white">We can help you build an awesome website that will get traffic and clicks to your content.</p>
                     </div>
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_17.png') }}" alt="">
                         </div>
                         <h5 class="text-white fw-semibold">SEO Optimization</h5>
                         <p class="text-white">Our SEO specialists can help you rank higher on search engines and drive more organic traffic to your website.</p>
                     </div>
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_9.png') }}" alt="">
                         </div>
                         <h5 class="text-white fw-semibold">Political Outreach</h5>
                         <p class="text-white">Let our team of experts help your business operations and maximize your profits.</p>
                     </div>
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_15.png') }}" alt="">
                         </div>
                         <h5 class="text-white fw-semibold">Videography</h5>
                         <p class="text-white">We offer professional videography services for everything from corporate videos to social media content.</p>
                     </div>
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_11.png') }}" alt="">
                         </div>
                         <h5 class="text-white fw-semibold">Google Ads</h5>
                         <p class="text-white">We can help you create and run effective Google Ads campagins that drive traffic and increase selling conversions.</p>
                     </div>
-                    <div class="service-card col-md-3 border border-light rounded-4 px-3 py-2 my-3">
+                    <div class="service-card col flex-grow-1 border border-light rounded-4 px-3 py-2">
                         <div class="service-img-wrapper">
                             <img class="img-fluid" src="{{ asset('images/Icons/Icons_7.png') }}" alt="">
                         </div>
@@ -132,7 +152,7 @@
                 <img class="img-fluid" src="{{ asset('images/award-left.png') }}" alt="">
             </div>
             <div class="award-photo col-md-4">
-                <img src="{{ asset('images/awards.png') }}" alt="">
+                <img src="{{ asset('images/Award.png') }}" alt="">
             </div>
             <div class="award-title col-md-4 d-flex flex-col justify-content-center align-items-center position-relative">
                 <img class="img-fluid" src="{{ asset('images/award-right.png') }}" alt="">
@@ -151,7 +171,7 @@
                 <h2 class="text-center text-white fw-bold">Let's Connect</h2>
                 <h3 class="text-white text-center fw-semibold">Ready to elevate your communication strategy?</h3>
                 <p class="text-center text-white">Contact us today to schedule a consultation</p>
-                <a href="#" id="contact-us-btn" class="text-decoration-none text-white rounded-pill px-4 py-2">Contact us</a>
+                <a href="#" id="contact-us-btn" class="text-decoration-none text-white rounded-pill px-4 py-1">Contact us</a>
             </section>
         </div>
     </div>
@@ -159,7 +179,7 @@
         <h1 class="text-white text-center fw-bold">Our Awesome Clients</h1>
         <div id="business-clients" class="client-type my-3 d-flex flex-column justify-content-center align-items-center">
             <div class="client-type-line"></div>
-            <div class="client-type-text text-center text-white px-4 py-2 rounded-pill fw-semibold">BUSINESS CLIENTS</div>
+            <div class="client-type-text text-center text-white px-4 py-1 rounded-pill">BUSINESS CLIENTS</div>
         </div>
         <div class="row mt-5">
             <div class="col-md-2">
@@ -183,7 +203,7 @@
         </div>
         <div id="political-clients" class="client-type my-3 d-flex flex-column justify-content-center align-items-center">
             <div class="client-type-line"></div>
-            <div class="client-type-text text-center text-white px-4 py-2 rounded-pill fw-semibold">POLITICAL CLIENTS</div>
+            <div class="client-type-text text-center text-white px-4 py-1 rounded-pill">POLITICAL CLIENTS</div>
         </div>
         <div class="row mt-5">
             <div class="col-md-2">
@@ -206,5 +226,69 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div id="footer-top">
+            <div class="container py-5">
+                <div class="row row-cols-1 row-cols-xl-2">
+                    <div class="col row row-cols-1 row-cols-md-3">
+                        <div class="col">
+                            <h4 class="text-white fw-semibold mb-3">Marketing</h4>
+                            <p class="text-white mb-2">Business Consulting</p>
+                            <p class="text-white mb-2">Social Media Marketing</p>
+                            <p class="text-white mb-2">Google Ads</p>
+                            <p class="text-white mb-2">SEO Optimization</p>
+                            <p class="text-white mb-2">Political Outreach</p>
+                        </div>
+                        <div class="col">
+                            <h4 class="text-white fw-semibold mb-3">Creatives</h4>
+                            <p class="text-white mb-2">Videography</p>
+                            <p class="text-white mb-2">Photography</p>
+                            <p class="text-white mb-2">Website Development</p>
+                            <p class="text-white mb-2">Graphic Design</p>
+                            <p class="text-white mb-2">Logo Development</p>
+                        </div>
+                        <div class="col">
+                            <h4 class="text-white fw-semibold mb-3">Other</h4>
+                            <p class="text-white mb-2">Solar Panels</p>
+                            <p class="text-white mb-2">Real State Consulting</p>
+                            <p class="text-white mb-2">Sales Training</p>
+                            <p class="text-white mb-2">Campaign USA</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-column justify-content-between">
+                        <div class="footer-logo d-flex justify-content-end">
+                            <img src="{{ asset('images/Icon.png') }}" alt="">
+                        </div>
+                        <div class="footer-contact">
+                            <p class="text-white text-end besbas m-0">INFO@LURTSEMACOMMUNICATIONS.COM</p>
+                            <p class="text-white text-end besbas m-0">6390 NORM DRIVE, ANDHCORAGE, ALASKA 99507, UNITED STATES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-6 d-flex gap-4">
+                        <div class="footer-bottom-text text-nowrap text-white">All Rights Reserved 2024</div>
+                        <div class="footer-bottom-text text-nowrap text-white">Terms</div>
+                        <div class="footer-bottom-text text-nowrap text-white">Privacy</div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end gap-4">
+                        <div id="soc-med">
+                            <a href=""><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
+                            <a href=""><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
+                            <a href=""><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="socmed-logo" alt=""></a>
+                            <a href=""><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://hrportal.lurtsemacommunications.com/public/" target="_blank" class="text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
