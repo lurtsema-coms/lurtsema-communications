@@ -87,6 +87,10 @@ body {
   max-width: 30rem;
 }
 
+.service-description {
+  line-height: 1.3rem;
+}
+
 .service-card .hide {
   display: none;
 }
@@ -175,9 +179,13 @@ body {
 }
 
 .client-photo {
-  opacity: 0.8;
+  opacity: 0.5;
   max-height: 80%;
   max-width: 80%;
+}
+
+#awards {
+  max-width: 80rem;
 }
 
 #footer-top {
