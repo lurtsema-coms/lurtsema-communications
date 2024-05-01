@@ -63,7 +63,7 @@
             <p class="text-white fs-5 text-center mb-4">
             Lurtsema Communications understands the power of words and the impact of a strong digital presence.
             Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the
-            stage, out tema is dedicated to elevating your message and amplifying your voice.
+            stage, out team is dedicated to elevating your message and amplifying your voice.
             </p>
             <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
         </section>
@@ -271,13 +271,13 @@
         </div>
         <div id="footer-bottom">
             <div class="container">
-                <div class="row py-5 gap-3">
-                    <div class="col-md-6 d-flex gap-4">
+                <div class="flex flex-column py-5 gap-3">
+                    <div class="col d-flex gap-4">
                         <div class="footer-bottom-text text-nowrap text-light">All Rights Reserved <span id="current-year"></span></div>
                         <div class="footer-bottom-text text-nowrap text-light">Terms</div>
                         <div class="footer-bottom-text text-nowrap text-light">Privacy</div>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-end gap-4">
+                    <div class="col d-flex justify-content-end mt-3">
                         <div id="soc-med">
                             <a target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
                             <a target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
