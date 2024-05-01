@@ -7,6 +7,8 @@
     <title>Lurtsema Communications</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{asset('css/nav-bar.css')}}">
+    <script src="{{ asset('js/jquery-3.7.1.min.js') }}"></script>
     @php
         $background_url = asset('images/BG.png');
         $font_url = asset('font/Bebas Neue.ttf');
@@ -231,7 +233,7 @@
             <div class="container py-5">
                 <div class="row row-cols-1 row-cols-xl-2">
                     <div class="col row row-cols-1 row-cols-md-3">
-                        <div class="col">
+                        <div class="col mt-3">
                             <h4 class="text-white fw-semibold mb-3">Marketing</h4>
                             <p class="text-white mb-2">Business Consulting</p>
                             <p class="text-white mb-2">Social Media Marketing</p>
@@ -239,7 +241,7 @@
                             <p class="text-white mb-2">SEO Optimization</p>
                             <p class="text-white mb-2">Political Outreach</p>
                         </div>
-                        <div class="col">
+                        <div class="col mt-3">
                             <h4 class="text-white fw-semibold mb-3">Creatives</h4>
                             <p class="text-white mb-2">Videography</p>
                             <p class="text-white mb-2">Photography</p>
@@ -247,7 +249,7 @@
                             <p class="text-white mb-2">Graphic Design</p>
                             <p class="text-white mb-2">Logo Development</p>
                         </div>
-                        <div class="col">
+                        <div class="col mt-3">
                             <h4 class="text-white fw-semibold mb-3">Other</h4>
                             <p class="text-white mb-2">Solar Panels</p>
                             <p class="text-white mb-2">Real State Consulting</p>
@@ -271,16 +273,16 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-6 d-flex gap-4">
-                        <div class="footer-bottom-text text-nowrap text-white">All Rights Reserved 2024</div>
-                        <div class="footer-bottom-text text-nowrap text-white">Terms</div>
-                        <div class="footer-bottom-text text-nowrap text-white">Privacy</div>
+                        <div class="footer-bottom-text text-nowrap text-light">All Rights Reserved <span id="current-year"></span></div>
+                        <div class="footer-bottom-text text-nowrap text-light">Terms</div>
+                        <div class="footer-bottom-text text-nowrap text-light">Privacy</div>
                     </div>
                     <div class="col-md-6 d-flex justify-content-end gap-4">
                         <div id="soc-med">
-                            <a href=""><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
-                            <a href=""><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
-                            <a href=""><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="socmed-logo" alt=""></a>
-                            <a href=""><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
+                            <a target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
+                            <a target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
+                            <a target="_blank" href="https://www.instagram.com/lurtsemacommunications/"><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="socmed-logo" alt=""></a>
+                            <a target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
                         </div>
                         <div>
                             <a href="https://hrportal.lurtsemacommunications.com/public/" target="_blank" class="text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>
@@ -290,5 +292,16 @@
             </div>
         </div>
     </footer>
+    <script>
+        const yearSpan = document.getElementById('current-year');
+        yearSpan.textContent = new Date().getFullYear();
+        $('#nav-bar-toggle').on('click', function() {
+            $('#nav-small-screen').slideToggle();
+        });
+
+        $('#nav-small-screen a').on('click', function() {
+            $('#nav-small-screen').slideToggle();
+        })
+    </script>
 </body>
 </html>

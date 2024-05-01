@@ -1,0 +1,30 @@
+#nav-hamburger {
+  width: 3rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+#nav-hamburger .icon-bar {
+  background-color: #0e4968;
+  border-radius: 1rem;
+  height: 0.25rem;
+  width: 100%;
+}
+
+#nav-bar-toggle {
+  display: none;
+}
+
+#nav-small-screen {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-bar-hide {
+    display: none !important;
+  }
+
+  #nav-bar-toggle {
+    display: inline-block;
+  }
+}

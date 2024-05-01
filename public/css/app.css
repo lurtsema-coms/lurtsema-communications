@@ -146,7 +146,7 @@ body {
 }
 
 .client-photo {
-  opacity: 0.5;
+  opacity: 0.8;
   max-height: 80%;
   max-width: 80%;
 }
@@ -196,5 +196,11 @@ img.socmed-logo {
 
   #founder-details {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #client-numbers {
+    flex-direction: column;
   }
 }
