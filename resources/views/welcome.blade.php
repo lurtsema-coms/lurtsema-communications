@@ -271,7 +271,7 @@
         </div>
         <div id="footer-bottom">
             <div class="container">
-                <div class="row py-5">
+                <div class="row py-5 gap-3">
                     <div class="col-md-6 d-flex gap-4">
                         <div class="footer-bottom-text text-nowrap text-light">All Rights Reserved <span id="current-year"></span></div>
                         <div class="footer-bottom-text text-nowrap text-light">Terms</div>
