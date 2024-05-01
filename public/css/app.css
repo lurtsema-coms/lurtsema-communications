@@ -7,13 +7,15 @@ body {
 }
 
 #hero-background {
-  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0));
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), rgb(13, 39, 55, 0.400));
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
 }
 
 #hero-background-image {
-  z-index: -1;
-  position: absolute;
-  top: 0;
   width: 100%;
   opacity: 0.08;
 }
@@ -67,7 +69,8 @@ body {
 }
 
 #founder-box {
-  background-color: #020d17;
+  min-height: 25rem;
+  background: radial-gradient(circle, rgb(2, 41, 77) 0%, #020d17) 100% ;
 }
 
 #nav-bar-container {
@@ -99,7 +102,7 @@ body {
 }
 
 #founder {
-  margin-top: 10rem;;
+  margin-top: 5rem;;
 }
 
 #founder-photo {

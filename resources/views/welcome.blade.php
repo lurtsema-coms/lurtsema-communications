@@ -37,7 +37,7 @@
             @include('components.nav-bar')
         </div>
     </div>
-    <div class="container">
+    <div class="container d-flex flex-column justify-content-center align-items-center gap-5">
         <section id="hero-section mx-5 my-5">
                 <div class="mt-5 d-flex flex-column justify-content-center align-items-center">
                     <img id="hero-text" src="{{ asset('images/hero-message.png') }}" alt="">
@@ -65,14 +65,14 @@
                 <div id="founder-details" class="col-md-8">
                     <h2 class="text-white fw-bold">Joe Lurtsema</h2>
                     <h5 class="text-white fw-semi-bold mb-4">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
-                    <p class="text-white mb-3">
+                    <p class="text-white mb-4">
                         Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.
                     </p>
                     <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-5">Consult now!</a>
                 </div>
             </div>
         </section>
-        <section id="services" class="my-5">
+        <section id="services" class="my-5 mb-5">
             <h1 class="text-white fw-bold">Our services</h1>
             <p class="text-white mb-3">
                 We specialize in delivering comprehensive marketing solutions and creative services </br>
@@ -145,7 +145,7 @@
                 </div>
             </div>
         </section>
-        <section id="awards" class="row">
+        <section id="awards" class="row my-5">
             <div class="award-title col-md-4 d-flex flex-col justify-content-center align-items-center position-relative">
                 <img class="img-fluid" src="{{ asset('images/award-left.png') }}" alt="">
             </div>
@@ -156,12 +156,12 @@
                 <img class="img-fluid" src="{{ asset('images/award-right.png') }}" alt="">
             </div>
         </section>
-        <section id="reels" class="my-5">
+        {{-- <section id="reels" class="my-5">
             <div class="d-flex flex-row flex-wrap justify-content-around align-items-center gap-3">
                 <div class="reel-wrapper d-flex justify-content-center align-items-center bg-black text-white p-5 text-center rounded-3"><p>POLITICAL REEL HERE</p></div>
                 <div class="reel-wrapper d-flex justify-content-center align-items-center bg-black text-white p-5 text-center rounded-3"><p>BUSINESS REEL HERE</p></div>
             </div>
-        </section>
+        </section> --}}
     </div>
     <div id="connect-container" class="p-2 my-5">
         <div class="container">
@@ -175,7 +175,7 @@
     </div>
     <div class="container my-5">
         <h1 class="text-white text-center fw-bold">Our Awesome Clients</h1>
-        <div id="business-clients" class="client-type my-3 d-flex flex-column justify-content-center align-items-center">
+        <div id="business-clients" class="client-type my-5 d-flex flex-column justify-content-center align-items-center">
             <div class="client-type-line"></div>
             <div class="client-type-text text-center text-white px-4 py-1 rounded-pill">BUSINESS CLIENTS</div>
         </div>
@@ -199,7 +199,7 @@
                 <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
             </div>
         </div>
-        <div id="political-clients" class="client-type my-3 d-flex flex-column justify-content-center align-items-center">
+        <div id="political-clients" class="client-type my-3 mt-5 d-flex flex-column justify-content-center align-items-center">
             <div class="client-type-line"></div>
             <div class="client-type-text text-center text-white px-4 py-1 rounded-pill">POLITICAL CLIENTS</div>
         </div>
