@@ -271,14 +271,14 @@
         </div>
         <div id="footer-bottom">
             <div class="container">
-                <div class="flex flex-column py-5 gap-3">
-                    <div class="col d-flex gap-4">
+                <div class="d-flex flex-wrap justify-content-between py-5 gap-3">
+                    <div class="d-flex gap-4">
                         <div class="footer-bottom-text text-nowrap text-light">All Rights Reserved <span id="current-year"></span></div>
                         <div class="footer-bottom-text text-nowrap text-light">Terms</div>
                         <div class="footer-bottom-text text-nowrap text-light">Privacy</div>
                     </div>
-                    <div class="col d-flex justify-content-end mt-3">
-                        <div id="soc-med">
+                    <div class="d-flex justify-content-between gap-3 mt-3">
+                        <div id="soc-med" class="d-flex gap-2">
                             <a target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
                             <a target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
                             <a target="_blank" href="https://www.instagram.com/lurtsemacommunications/"><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="socmed-logo" alt=""></a>
