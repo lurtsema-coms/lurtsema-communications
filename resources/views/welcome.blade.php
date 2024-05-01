@@ -62,7 +62,7 @@
                 <div id="founder-photo-wrapper" class="col-md-4 position-relative">
                     <img id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
                 </div>
-                <div id="founder-details" class="col-md-8">
+                <div id="founder-details" class="col-md-8 p-5">
                     <h2 class="text-white fw-bold">Joe Lurtsema</h2>
                     <h5 class="text-white fw-semi-bold mb-4">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
                     <p class="text-white mb-4">

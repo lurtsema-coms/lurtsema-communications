@@ -7,7 +7,13 @@ body {
 }
 
 #hero-background {
-  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), rgb(13, 39, 55, 0.400));
+  background: linear-gradient(
+    to bottom, rgb(0, 0, 0), 
+    rgb(0, 0, 0), 
+    rgb(0, 0, 0), 
+    rgba(5, 15, 22, 0.811),
+    rgb(13, 39, 55, 0.400)
+  );
   position: absolute;
   top: 0;
   z-index: -1;
@@ -17,7 +23,7 @@ body {
 
 #hero-background-image {
   width: 100%;
-  opacity: 0.08;
+  opacity: 0.03;
 }
 
 #hero-text {
@@ -102,7 +108,7 @@ body {
 }
 
 #founder {
-  margin-top: 5rem;;
+  margin-top: 5rem;
 }
 
 #founder-photo {
