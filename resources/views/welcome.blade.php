@@ -168,8 +168,8 @@
     <div id="connect-container" class="p-2 my-5">
         <div class="container">
             <section id="connect" class="d-flex flex-column justify-content-center align-items-center my-5">
-                <h2 class="text-center text-white fw-bold">Let's Connect</h2>
-                <h3 class="text-white text-center fw-semibold">Ready to elevate your communication strategy?</h3>
+                <h1 class="text-center text-white fw-bold">Let's Connect</h1>
+                <h2 class="text-white text-center fw-semibold">Ready to elevate your communication strategy?</h2>
                 <p class="text-center text-white">Contact us today to schedule a consultation</p>
                 <a href="#" id="contact-us-btn" class="text-decoration-none text-white rounded-pill px-4 py-1">Contact us</a>
             </section>
