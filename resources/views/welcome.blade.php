@@ -58,11 +58,11 @@
             <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
         </section>
         <section id="founder" class="d-flex flex-column align-items-center">
-            <div id="founder-box" class="row rounded-5 py-5 px-3">
+            <div id="founder-box" class="row rounded-5 p-sm-2 py-md-5 px-md-3">
                 <div id="founder-photo-wrapper" class="col-md-4 position-relative">
                     <img id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
                 </div>
-                <div id="founder-details" class="col-md-8 p-5">
+                <div id="founder-details" class="col-md-8 p-2 p-md-5">
                     <h2 class="text-white fw-bold">Joe Lurtsema</h2>
                     <h5 class="text-white fw-semi-bold mb-4 besbas">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
                     <p class="text-white mb-4">
@@ -78,7 +78,7 @@
                 We specialize in delivering comprehensive marketing solutions and creative services </br>
                 tailored to elevate your brands's presence in today's competetive landscape.
             </p>
-            <div id="service-card-wrapper" class="row row-cols-xl-5 justify-content-center gap-5 my-5">
+            <div id="service-card-wrapper" class="row row-cols-xl-5 justify-content-center gap-3 gap-md-5 mx-1 mx-md-0 my-5">
                 <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
