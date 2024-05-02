@@ -78,8 +78,8 @@
                 We specialize in delivering comprehensive marketing solutions and creative services </br>
                 tailored to elevate your brands's presence in today's competetive landscape.
             </p>
-            <div id="service-card-wrapper" class="row row-cols-3 row-cols-lg-5 justify-content-between gap-5 my-5">
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+            <div id="service-card-wrapper" class="row row-cols-xl-5 justify-content-center gap-5 my-5">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_6.png') }}" alt="">
@@ -87,7 +87,7 @@
                     <h5 class="text-white fw-semibold">Business Consulting</h5>
                     <p class="text-white service-description">Let our team of experts help your business operations and maximize your profits.</p>
                 </div>
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_13.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
@@ -95,7 +95,7 @@
                     <h5 class="text-white fw-semibold">Social Media Marketing</h5>
                     <p class="text-white service-description">We can hep you utilize all the social media out there to grow your business and connect with your audience.</p>
                 </div>
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_3.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_4.png') }}" alt="">
@@ -103,7 +103,7 @@
                     <h5 class="text-white fw-semibold">Website Development</h5>
                     <p class="text-white service-description">We can help you build an awesome website that will get traffic and clicks to your content.</p>
                 </div>
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_17.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_18.png') }}" alt="">
@@ -111,7 +111,7 @@
                     <h5 class="text-white fw-semibold">SEO Optimization</h5>
                     <p class="text-white service-description">Our SEO specialists can help you rank higher on search engines and drive more organic traffic to your website.</p>
                 </div>
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_9.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
@@ -119,7 +119,7 @@
                     <h5 class="text-white fw-semibold">Political Outreach</h5>
                     <p class="text-white service-description">Let our team of experts help your business operations and maximize your profits.</p>
                 </div>
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_15.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_16.png') }}" alt="">
@@ -127,7 +127,7 @@
                     <h5 class="text-white fw-semibold">Videography</h5>
                     <p class="text-white service-description">We offer professional videography services for everything from corporate videos to social media content.</p>
                 </div>
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_11.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
@@ -135,7 +135,7 @@
                     <h5 class="text-white fw-semibold">Google Ads</h5>
                     <p class="text-white service-description">We can help you create and run effective Google Ads campagins that drive traffic and increase selling conversions.</p>
                 </div>
-                <div class="service-card d-flex flex-column align-items-start gap-2 col flex-grow-1 border border-light rounded-4 p-4">
+                <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_7.png') }}" alt="">
                         <img class="img-fluid hide" src="{{ asset('images/Icons/Icons_8.png') }}" alt="">
