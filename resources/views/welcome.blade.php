@@ -278,7 +278,7 @@
                         <div class="footer-bottom-text text-nowrap text-light">Terms</div>
                         <div class="footer-bottom-text text-nowrap text-light">Privacy</div>
                     </div>
-                    <div class="d-flex flex-wrap justify-content-between gap-3 mt-3">
+                    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
                         <div id="soc-med" class="d-flex gap-2">
                             <a target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
                             <a target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
