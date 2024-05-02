@@ -78,7 +78,7 @@
                 We specialize in delivering comprehensive marketing solutions and creative services </br>
                 tailored to elevate your brands's presence in today's competetive landscape.
             </p>
-            <div id="service-card-wrapper" class="row row-cols-xl-5 justify-content-center gap-3 gap-md-5 mx-1 mx-md-0 my-5">
+            <div id="service-card-wrapper" class="row row-cols-xl-5 justify-content-center gap-4 gap-md-5 mx-3 mx-md-0 my-5">
                 <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
                         <img class="img-fluid show" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
