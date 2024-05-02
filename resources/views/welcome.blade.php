@@ -53,7 +53,7 @@
             <p class="text-white fs-5 text-center mb-4">
             Lurtsema Communications understands the power of words and the impact of a strong digital presence.
             Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the
-            stage, out team is dedicated to elevating your message and amplifying your voice.
+            stage, our team is dedicated to elevating your message and amplifying your voice.
             </p>
             <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
         </section>
