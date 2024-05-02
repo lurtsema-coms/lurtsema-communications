@@ -48,7 +48,7 @@
                     <img class="number-figure col img-fluid" src="{{ asset('images/number-campaigns.png') }}" alt="">
                 </div>
         </section>
-        <section id="about" class="d-flex flex-column align-items-center my-5">
+        <section id="about" class="mx-3 mx-md-0 d-flex flex-column align-items-center my-5">
             <h2 class="text-white fw-bold mb-3 text-center">About Lurtsema Communications</h2>
             <p class="text-white fs-5 text-center mb-4">
             Lurtsema Communications understands the power of words and the impact of a strong digital presence.
@@ -58,7 +58,7 @@
             <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
         </section>
         <section id="founder" class="d-flex flex-column align-items-center">
-            <div id="founder-box" class="row rounded-5 m-1 m-sm-0 p-sm-2 py-md-5 px-md-3">
+            <div id="founder-box" class="row rounded-5 mx-3 mx-md-0 p-sm-2 py-md-5 px-md-3">
                 <div id="founder-photo-wrapper" class="col-md-4 position-relative">
                     <img id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
                 </div>
@@ -72,12 +72,14 @@
                 </div>
             </div>
         </section>
-        <section id="services" class="my-5 mb-5">
-            <h1 class="text-white fw-bold">Our services</h1>
-            <p class="text-white mb-3">
-                We specialize in delivering comprehensive marketing solutions and creative services </br>
-                tailored to elevate your brands's presence in today's competetive landscape.
-            </p>
+        <section id="services" class="my-5 mx-3 mx-md-0 mb-5">
+            <div class="service-intro mx-3 mx-md-0">
+                <h1 class="text-white fw-bold">Our services</h1>
+                <p class="text-white">
+                    We specialize in delivering comprehensive marketing solutions and creative services </br>
+                    tailored to elevate your brands's presence in today's competetive landscape.
+                </p>
+            </div>
             <div id="service-card-wrapper" class="row row-cols-xl-5 justify-content-center gap-4 gap-md-5 mx-3 mx-md-0 my-5">
                 <div class="service-card d-flex flex-column align-items-start gap-2 col-sm-4 flex-grow-1 border border-light rounded-4 p-4">
                     <div class="service-img-wrapper mb-3">
@@ -231,7 +233,7 @@
     <footer>
         <div id="footer-top">
             <div class="container py-5">
-                <div class="row row-cols-1 row-cols-xl-2">
+                <div class="row row-cols-1 row-cols-xl-2 mx-3 mx-md-0">
                     <div class="col row row-cols-1 row-cols-md-3">
                         <div class="col mt-3">
                             <h4 class="text-white fw-semibold mb-3">Marketing</h4>
@@ -257,7 +259,7 @@
                             <p class="text-white mb-2">Campaign USA</p>
                         </div>
                     </div>
-                    <div class="col d-flex flex-column justify-content-between">
+                    <div class="col mx-3 mx-md-0 d-flex flex-column justify-content-between">
                         <div class="footer-logo d-flex justify-content-end">
                             <img src="{{ asset('images/Icon.png') }}" alt="">
                         </div>
@@ -271,7 +273,7 @@
         </div>
         <div id="footer-bottom">
             <div class="container">
-                <div class="d-flex flex-wrap justify-content-between py-5 gap-3">
+                <div class="d-flex mx-3 mx-md-0 flex-wrap justify-content-between py-5 gap-3">
                     <div class="d-flex flex-wrap gap-4">
                         <div class="footer-bottom-text text-nowrap text-light">All Rights Reserved <span id="current-year"></span></div>
                         <div class="footer-bottom-text text-nowrap text-light">Terms</div>
