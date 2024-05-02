@@ -171,7 +171,7 @@
                 <h1 class="text-center text-white fw-bold">Let's Connect</h1>
                 <h2 class="text-white text-center fw-semibold">Ready to elevate your communication strategy?</h2>
                 <p class="text-center text-white">Contact us today to schedule a consultation</p>
-                <a href="#" id="contact-us-btn" class="text-decoration-none text-white rounded-pill px-4 py-1">Contact us</a>
+                <a href="#" id="contact-us-btn" class="btn-cta-2 text-decoration-none text-white rounded-pill px-4 py-1">Contact us</a>
             </section>
         </div>
     </div>

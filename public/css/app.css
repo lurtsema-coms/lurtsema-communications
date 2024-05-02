@@ -55,14 +55,20 @@ body {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
+.btn-cta-2 {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-cta-2:hover {
+  opacity: 0.5;
+}
+
 .btn-light {
   transition: all 0.2s ease-in-out;
 }
 
 .btn-light:hover {
-  color: white !important;
-  background-color: black !important;
-  border: 1px solid white;
+  opacity: 0.5;
 }
 
 #client-numbers {
