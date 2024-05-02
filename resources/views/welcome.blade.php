@@ -279,10 +279,10 @@
                     </div>
                     <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
                         <div id="soc-med" class="d-flex gap-2">
-                            <a target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
-                            <a target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
-                            <a target="_blank" href="https://www.instagram.com/lurtsemacommunications/"><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="socmed-logo" alt=""></a>
-                            <a target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
+                            <a class="hover-opacity" target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="socmed-logo" alt=""></a>
+                            <a class="hover-opacity" target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="socmed-logo" alt=""></a>
+                            <a class="hover-opacity" target="_blank" href="https://www.instagram.com/lurtsemacommunications/"><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="socmed-logo" alt=""></a>
+                            <a class="hover-opacity" target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
                         </div>
                         <div>
                             <a href="https://hrportal.lurtsemacommunications.com/public/" target="_blank" class="btn-light text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>

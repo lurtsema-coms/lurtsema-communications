@@ -19,6 +19,22 @@
   display: none;
 }
 
+.btn-light {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-light:hover {
+  opacity: 0.5;
+}
+
+nav-list li a {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-list li a:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 992px) {
   .nav-bar-hide {
     display: none !important;
