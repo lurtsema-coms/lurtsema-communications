@@ -63,8 +63,8 @@
                     <img id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
                 </div>
                 <div id="founder-details" class="col-md-8 p-1 p-lg-5">
-                    <h2 class="text-white fw-bold">Joe Lurtsema</h2>
-                    <h5 class="text-white fw-semi-bold mb-4 besbas">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
+                    <h2 class="text-white fw-bold text-center text-lg-start">Joe Lurtsema</h2>
+                    <h5 class="text-white fw-semi-bold mb-4 text-center text-lg-start besbas">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
                     <p class="text-white mb-4">
                         Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.
                     </p>
