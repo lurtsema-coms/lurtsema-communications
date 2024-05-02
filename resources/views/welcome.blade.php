@@ -28,7 +28,7 @@
         }
     </style>
 </head>
-<body style="background-image: url('{{ $background_url }}'); background-repeat: repeat; background-size: cover;">
+<body>
     <div id="hero-background">
         <img id="hero-background-image" src="{{ asset('images/KNYA6641.jpg') }}" alt="">
     </div>
@@ -175,7 +175,6 @@
             </section>
         </div>
     </div>
-    set
     <div class="container my-5">
         <section id="clients" class="mt-5">
             <h1 class="text-white text-center fw-bold">Our Awesome Clients</h1>
