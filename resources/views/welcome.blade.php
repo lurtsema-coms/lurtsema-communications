@@ -55,7 +55,7 @@
             Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the
             stage, our team is dedicated to elevating your message and amplifying your voice.
             </p>
-            <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
+            <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
         </section>
         <section id="founder" class="d-flex flex-column align-items-center">
             <div id="founder-box" class="row rounded-5 m-1 m-sm-0 p-sm-2 py-md-5 px-md-3">
@@ -68,7 +68,7 @@
                     <p class="text-white mb-4">
                         Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.
                     </p>
-                    <a href="#" class="text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-5">Consult now!</a>
+                    <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-5">Consult now!</a>
                 </div>
             </div>
         </section>
@@ -285,7 +285,7 @@
                             <a target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
                         </div>
                         <div>
-                            <a href="https://hrportal.lurtsemacommunications.com/public/" target="_blank" class="text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>
+                            <a href="https://hrportal.lurtsemacommunications.com/public/" target="_blank" class="btn-light text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>
                         </div>
                     </div>
                 </div>
