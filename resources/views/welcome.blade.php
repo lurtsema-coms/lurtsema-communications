@@ -64,7 +64,7 @@
                 </div>
                 <div id="founder-details" class="col-md-8 p-5">
                     <h2 class="text-white fw-bold">Joe Lurtsema</h2>
-                    <h5 class="text-white fw-semi-bold mb-4">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
+                    <h5 class="text-white fw-semi-bold mb-4 besbas">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
                     <p class="text-white mb-4">
                         Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.
                     </p>
