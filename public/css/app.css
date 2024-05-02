@@ -179,7 +179,6 @@ body {
 }
 
 .client-photo {
-  opacity: 0.5;
   max-height: 80%;
   max-width: 80%;
 }
