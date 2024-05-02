@@ -58,11 +58,11 @@
             <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
         </section>
         <section id="founder" class="d-flex flex-column align-items-center">
-            <div id="founder-box" class="row rounded-5 mx-3 mx-md-0 p-sm-2 py-md-5 px-md-3">
+            <div id="founder-box" class="row gap-0 gap-md-auto rounded-5 mx-3 mx-md-0 p-sm-2 py-md-5 px-md-3">
                 <div id="founder-photo-wrapper" class="col-md-4 position-relative">
                     <img id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
                 </div>
-                <div id="founder-details" class="col-md-8 p-1 p-md-2 p-md-5">
+                <div id="founder-details" class="col-md-8 p-1 p-lg-5">
                     <h2 class="text-white fw-bold">Joe Lurtsema</h2>
                     <h5 class="text-white fw-semi-bold mb-4 besbas">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
                     <p class="text-white mb-4">
