@@ -288,7 +288,7 @@
                             <a class="hover-opacity" target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
                         </div>
                         <div>
-                            <a href="https://hrportal.lurtsemacommunications.com/public/" target="_blank" class="btn-light text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>
+                            <a href="https://hrportal.lurtsemacommunications.com/" target="_blank" class="btn-light text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>
                         </div>
                     </div>
                 </div>
