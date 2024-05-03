@@ -66,16 +66,16 @@
                 <div id="founder-details" class="col-md-8 p-1 p-lg-5">
                     <h2 class="text-white fw-bold text-center text-lg-start">Joe Lurtsema</h2>
                     <h5 class="text-white fw-semi-bold mb-4 text-center text-lg-start besbas">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h5>
-                    <p class="text-white mb-4">
+                    <p class="text-white mb-4 text-center text-lg-start">
                         Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.
                     </p>
-                    <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-5">Consult now!</a>
+                    <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-2 my-lg-5">Consult Now!</a>
                 </div>
             </div>
         </section>
         <section id="services" class="my-5 mx-3 mx-md-0 mb-5">
             <div class="service-intro mx-3 mx-md-0">
-                <h1 class="text-white fw-bold">Our services</h1>
+                <h1 class="text-white fw-bold">Our Services</h1>
                 <p class="text-white">
                     We specialize in delivering comprehensive marketing solutions and creative services </br>
                     tailored to elevate your brands's presence in today's competetive landscape.
@@ -235,7 +235,7 @@
         <div id="footer-top">
             <div class="container py-5">
                 <div class="row row-cols-1 row-cols-xl-2 mx-3 mx-md-0">
-                    <div class="col row row-cols-1 row-cols-md-3">
+                    <div id="footer-list" class="col row row-cols-1 row-cols-md-3">
                         <div class="col mt-3">
                             <h4 class="text-white fw-semibold mb-3">Marketing</h4>
                             <p class="text-white mb-2">Business Consulting</p>

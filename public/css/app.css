@@ -27,7 +27,7 @@ body {
 }
 
 #hero-text {
-  max-width: min(800px, 100%)
+  max-width: min(1200px, 100%)
 }
 
 .hero-text {
@@ -221,6 +221,10 @@ body {
   background-color: black;
 }
 
+#footer-list {
+  opacity: 0.5;
+}
+
 .footer-logo > img {
   height: 45px;
 }
@@ -249,6 +253,9 @@ img.socmed-logo {
 
   #founder-photo-wrapper {
     width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
   }
 
   #founder-box {
@@ -262,15 +269,24 @@ img.socmed-logo {
   #founder-photo {
     position: relative !important;
     bottom: unset;
+    max-width: 60%;
   }
 
   #founder-details {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #client-numbers {
+  #client-number {
     flex-direction: column;
+  }
+
+  .number-figure {
+    max-width: 200px;
   }
 }
