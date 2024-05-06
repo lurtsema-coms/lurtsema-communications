@@ -183,17 +183,17 @@
             <h1 class="text-white text-center fw-bold">Our Awesome Clients</h1>
             <div id="business-clients" class="client-type my-5 d-flex flex-column justify-content-center align-items-center">
                 <div class="client-type-line"></div>
-                <div class="client-type-text text-center text-white px-4 py-1 rounded-pill">BUSINESS CLIENTS</div>
+                <div class="client-type-text text-center text-white px-4 py-1 rounded-pill fw-semibold">BUSINESS CLIENTS</div>
             </div>
             <div class="row mt-5">
                 <div class="col-md-2">
                     <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
                 </div>
                 <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Cut Loose AK.jpg') }}" alt="">
+                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Hyland Hotel.png') }}" alt="">
                 </div>
                 <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/ATOM Center.png') }}" alt="">
+                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/The Alaska Life.png') }}" alt="">
                 </div>
                 <div class="col-md-2">
                     <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Muldoon Pizza1.png') }}" alt="">
@@ -207,7 +207,7 @@
             </div>
             <div id="political-clients" class="client-type my-3 mt-5 d-flex flex-column justify-content-center align-items-center">
                 <div class="client-type-line"></div>
-                <div class="client-type-text text-center text-white px-4 py-1 rounded-pill">POLITICAL CLIENTS</div>
+                <div class="client-type-text text-center text-white px-4 py-1 rounded-pill fw-semibold">POLITICAL CLIENTS</div>
             </div>
             <div class="row mt-5">
                 <div class="col-md-2">
