@@ -3,6 +3,7 @@
 /public/build
 /public/hot
 /public/storage
+/public/php_errorlog
 /storage/*.key
 /vendor
 .env
