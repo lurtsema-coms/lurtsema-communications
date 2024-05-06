@@ -5,10 +5,12 @@
 /public/storage
 /public/php_errorlog
 /storage/*.key
+/storage/backups/*
 /vendor
 .env
 .env.backup
 .env.production
+.phpunit.result.cache
 Homestead.json
 Homestead.yaml
 auth.json
@@ -17,3 +19,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/public/profile_picture/img
+.htaccess
+/storage/app/payroll
