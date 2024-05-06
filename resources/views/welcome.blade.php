@@ -186,23 +186,23 @@
                 <div class="client-type-text text-center text-white px-4 py-1 rounded-pill fw-semibold">BUSINESS CLIENTS</div>
             </div>
             <div class="row mt-5">
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Hyland Hotel.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Hyland Hotel.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/The Alaska Life.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/The Alaska Life.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Muldoon Pizza1.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Muldoon Pizza1.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Mile 5.2 Greenhouse.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Mile 5.2 Greenhouse.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
                 </div>
             </div>
             <div id="political-clients" class="client-type my-3 mt-5 d-flex flex-column justify-content-center align-items-center">
@@ -210,23 +210,23 @@
                 <div class="client-type-text text-center text-white px-4 py-1 rounded-pill fw-semibold">POLITICAL CLIENTS</div>
             </div>
             <div class="row mt-5">
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Rob Yundt State Senate.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Rob Yundt State Senate.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Doug Massie.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Doug Massie.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Kelly Merrick.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Kelly Merrick.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Cathy Tilton.jpg') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Cathy Tilton.jpg') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Forrest Wolfe.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Forrest Wolfe.png') }}" alt="">
                 </div>
-                <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Jubilee Underwood Logo v3.png') }}" alt="">
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center">
+                    <img class="img-fluid w-100 client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Jubilee Underwood Logo v3.png') }}" alt="">
                 </div>
             </div>
         </section>
