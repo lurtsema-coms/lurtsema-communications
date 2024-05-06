@@ -211,7 +211,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Craig Johnson.png') }}" alt="">
+                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Rob Yundt State Senate.png') }}" alt="">
                 </div>
                 <div class="col-md-2">
                     <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Doug Massie.png') }}" alt="">
@@ -226,7 +226,7 @@
                     <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Forrest Wolfe.png') }}" alt="">
                 </div>
                 <div class="col-md-2">
-                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Alina Rubeo.jpg') }}" alt="">
+                    <img class="img-fluid client-photo mx-auto d-block" src="{{ asset('images/political-logo-white/Jubilee Underwood Logo v3.png') }}" alt="">
                 </div>
             </div>
         </section>
