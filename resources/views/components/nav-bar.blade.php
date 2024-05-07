@@ -1,4 +1,4 @@
-<nav id="nav-bar" class="py-4 d-flex flex-column justify-content-between ">
+<nav id="nav-bar" class="py-4 d-flex flex-column justify-content-between px-3 px-md-0">
   <div id="nav-big-screen" class="d-flex justify-content-between align-items-center ">
     <a class="text-white text-decoration-none text-nowrap me-5" href="#"><img id="nav-bar-logo" src="{{ asset('images/logo-white.png') }}" alt=""></a>
     <div class="nav-bar-hide flex-grow-1 d-flex justify-content-between align-items-end">
@@ -17,7 +17,7 @@
       </button>
     </div>
   </div>
-  <div id="nav-small-screen">
+  <div id="nav-small-screen" class="display-md-none">
     <hr class="mb-1">
     <div class="d-flex flex-column justify-content-between align-items-start">
       <ul id="nav-list" class="nav-list d-flex flex-column gap-4 list-unstyled">
