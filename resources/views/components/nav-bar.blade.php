@@ -7,7 +7,7 @@
         <li><a class="text-white text-decoration-none text-nowrap" href="#services">Services</a></li>
         <li><a class="text-white text-decoration-none text-nowrap" href="#">Campaign USA</a></li>
       </ul>
-      <a href="#" class="btn-light bg-light text-dark px-3 py-1 rounded-pill text-decoration-none text-nowrap">Get in touch ></a>
+      <a href="#" class="btn-light bg-light text-dark px-3 py-1 rounded-pill text-decoration-none text-nowrap fw-semibold">Get in touch ></a>
     </div>
     <div id="nav-bar-toggle">
       <button id="nav-hamburger" class="rounded d-flex flex-column justify-content-center align-items-center gap-1" type="button">

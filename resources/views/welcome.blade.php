@@ -57,7 +57,7 @@
             Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the
             stage, our team is dedicated to elevating your message and amplifying your voice.
             </p>
-            <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1">Find out more</a>
+            <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1 fw-semibold">Find out more</a>
         </section>
         <section id="founder" class="d-flex flex-column align-items-center">
             <div id="founder-box" class="row gap-0 gap-md-auto rounded-5 mx-3 mx-md-0 p-sm-2 py-md-5 px-md-3">
@@ -70,7 +70,7 @@
                     <p class="text-white mb-4 text-center text-lg-start">
                         Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.
                     </p>
-                    <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-2 my-lg-5">Consult Now!</a>
+                    <a href="#" class="btn-cta text-decoration-none text-white rounded-pill border border-white px-4 py-1 my-2 my-lg-5 fw-semibold">Consult Now!</a>
                 </div>
             </div>
         </section>
@@ -175,7 +175,7 @@
                 <h1 class="text-center text-white fw-bold">Let's Connect</h1>
                 <h2 class="text-white text-center fw-semibold">Ready to elevate your communication strategy?</h2>
                 <p class="text-center text-white">Contact us today to schedule a consultation</p>
-                <a href="#" id="contact-us-btn" class="btn-cta-2 text-decoration-none text-white rounded-pill px-4 py-1">Contact us</a>
+                <a href="#" id="contact-us-btn" class="btn-cta-2 text-decoration-none text-white rounded-pill px-4 py-1 fw-semibold">Contact us</a>
             </section>
         </div>
     </div>
@@ -273,8 +273,8 @@
                             <img src="{{ asset('images/Icon.png') }}" alt="">
                         </div>
                         <div class="footer-contact">
-                            <p class="text-white text-end besbas m-0">INFO@LURTSEMACOMMUNICATIONS.COM</p>
-                            <p class="text-white text-end besbas m-0">6390 NORM DRIVE, ANDHCORAGE, ALASKA 99507, UNITED STATES</p>
+                            <p class="text-white text-end besbas m-0 fs-5">INFO@LURTSEMACOMMUNICATIONS.COM</p>
+                            <p class="text-white text-end besbas m-0 fs-5">6390 NORM DRIVE, ANDHCORAGE, ALASKA 99507, UNITED STATES</p>
                         </div>
                     </div>
                 </div>
@@ -296,7 +296,7 @@
                             <a class="hover-opacity" target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="socmed-logo" alt=""></a>
                         </div>
                         <div>
-                            <a href="https://hrportal.lurtsemacommunications.com/" target="_blank" class="btn-light text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5">Employee Login</a>
+                            <a href="https://hrportal.lurtsemacommunications.com/" target="_blank" class="btn-light text-decoration-none text-nowrap bg-light text-dark rounded-pill border border-white px-4 py-1 my-5 fw-semibold">Employee Login</a>
                         </div>
                     </div>
                 </div>
