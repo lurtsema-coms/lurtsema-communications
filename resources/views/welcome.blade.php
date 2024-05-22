@@ -263,7 +263,7 @@
                         <div class="col mt-3">
                             <h4 class="text-white fw-semibold mb-3">Other</h4>
                             <p class="text-white mb-2">Solar Panels</p>
-                            <p class="text-white mb-2">Real State Consulting</p>
+                            <p class="text-white mb-2">Real Estate Consulting</p>
                             <p class="text-white mb-2">Sales Training</p>
                             <p class="text-white mb-2">Campaign USA</p>
                         </div>
