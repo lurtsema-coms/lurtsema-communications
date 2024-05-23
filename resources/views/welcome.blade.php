@@ -42,7 +42,7 @@
     <div class="container d-flex flex-column justify-content-center align-items-center gap-5">
         <section id="hero-section mx-5 my-5">
                 <div class="mt-5 d-flex flex-column justify-content-center align-items-center">
-                    <img id="hero-text" src="{{ asset('images/hero-message.png') }}" alt="">
+                    <img width="5000px" id="hero-text" src="{{ asset('images/hero-message.png') }}" alt="">
                 </div>
                 <div id="client-number" class="row row-cols-sm-1 row-cols-md-3 justify-content-center align-items-center flex-wrap">
                     <img class="number-figure col img-fluid" src="{{ asset('images/number-clients.png') }}" alt="">
@@ -62,7 +62,7 @@
         <section id="founder" class="d-flex flex-column align-items-center">
             <div id="founder-box" class="row gap-0 gap-md-auto rounded-5 mx-3 mx-md-0 p-sm-2 py-md-5 px-md-3">
                 <div id="founder-photo-wrapper" class="col-md-4 position-relative">
-                    <img id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
+                    <img width="1200" id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
                 </div>
                 <div id="founder-details" class="col-md-8 p-1 p-lg-5">
                     <h2 class="text-white fw-bold text-center text-lg-start">Joe Lurtsema</h2>
