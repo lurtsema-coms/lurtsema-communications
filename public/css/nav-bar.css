@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 10rem;
+}
+
 #nav-hamburger {
   width: 3rem;
   background-color: rgba(0, 0, 0, 0);
@@ -42,5 +46,9 @@ nav-list li a {
 
   #nav-bar-toggle {
     display: inline-block;
+  }
+
+  html {
+    scroll-padding-top: 20rem;
   }
 }
