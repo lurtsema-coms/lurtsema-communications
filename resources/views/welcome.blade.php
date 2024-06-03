@@ -274,7 +274,7 @@
                         </div>
                         <div class="footer-contact">
                             <p class="text-white text-end besbas m-0 fs-5">INFO@LURTSEMACOMMUNICATIONS.COM</p>
-                            <p class="text-white text-end besbas m-0 fs-5">6390 NORM DRIVE, ANDHCORAGE, ALASKA 99507, UNITED STATES</p>
+                            <p class="text-white text-end besbas m-0 fs-5">6390 NORM DRIVE, ANCHORAGE, ALASKA 99507, UNITED STATES</p>
                         </div>
                     </div>
                 </div>
