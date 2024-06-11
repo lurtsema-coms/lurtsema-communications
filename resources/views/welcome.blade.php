@@ -62,7 +62,7 @@
         <section id="founder" class="d-flex flex-column align-items-center">
             <div id="founder-box" class="row gap-0 gap-md-auto rounded-5 mx-3 mx-md-0 p-sm-2 py-md-5 px-md-3">
                 <div id="founder-photo-wrapper" class="col-md-4 position-relative">
-                    <img width="1200" id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder.png') }}" alt="">
+                    <img width="1200" id="founder-photo" class="img-fluid position-absolute" src="{{ asset('images/founder-enhanced.png') }}" alt="">
                 </div>
                 <div id="founder-details" class="col-md-8 p-1 p-lg-5">
                     <h2 class="text-white fw-bold text-center text-lg-start">Joe Lurtsema</h2>
