@@ -1,6 +1,6 @@
 <nav id="nav-bar" class="container mx-auto py-5 px-10 flex flex-col justify-between lg:flex-row lg:justify-between bg-black">
   <div class="flex flex-row justify-between items-center">
-    <a class="no-underline text-nowrap max-w-[200px]" href="#">
+    <a class="no-underline text-nowrap max-w-[200px]" href="/#">
       <img id="nav-bar-logo" class="h-full" src="{{ asset('images/logo-white.png') }}" alt="">
     </a>
     <button id="nav-hamburger" class="rounded flex flex-col gap-1 w-[38px] lg:hidden" type="button">
