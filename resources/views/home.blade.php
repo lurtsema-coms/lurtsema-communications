@@ -194,8 +194,8 @@
   </div>
 </section>
 <section class="bg-black bg-opacity-30">
-  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center gap-3 py-10">
-    <div class="flex-grow flex flex-col md:flex-row gap-6 w-full justify-between items-start text-slate-400">
+  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-stretch gap-3 py-10">
+    <div class="flex-grow flex flex-col md:flex-row gap-6 w-full justify-between md:justify-around lg:justify-between items-start text-slate-400">
       <div class="flex flex-col gap-3">
         <h4 class="text-2xl font-semibold">Marketing</h4>
         <p class="text-md">Business Consulting</p>
@@ -223,8 +223,8 @@
     <div class="flex flex-col justify-between items-end w-full">
       <img class="max-w-14" src="{{ asset('images/Icon.png') }}" alt="">
       <div class="">
-        <p class="text-end font-besbas text-lg">INFO@LURTSEMACOMMUNICATIONS.COM</p>
-        <p class="text-end font-besbas text-lg">6390 NORM DRIVE, ANCHORAGE, ALASKA 99507, UNITED STATES</p>
+        <p class="text-end font-besbas text-lg sm:text-2xl">INFO@LURTSEMACOMMUNICATIONS.COM</p>
+        <p class="text-end font-besbas text-lg sm:text-2xl">6390 NORM DRIVE, ANCHORAGE, ALASKA 99507, UNITED STATES</p>
       </div>
     </div>
   </div>
