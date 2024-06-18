@@ -2,7 +2,7 @@
   <div class="flex flex-row gap-5 justify-start">
     <p class="text-lg">All Rights Reserved {{ date('Y') }}</p>
     <a href="{{ route('terms') }}" class="text-lg underline">Terms</a>
-    <a class="text-lg underline">Privacy Policy</a>
+    <a href="{{ route('privacy-policy') }}" class="text-lg underline">Privacy Policy</a>
   </div>
   <div class="flex flex-col sm:flex-row gap-5 items-start justify-start">
     <div class="flex justify-center items-center gap-3">
