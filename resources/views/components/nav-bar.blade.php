@@ -1,4 +1,4 @@
-<nav id="nav-bar" class="container mx-auto py-5 px-10 flex flex-col justify-between lg:flex-row lg:justify-between bg-black">
+<nav id="nav-bar" class="container mx-auto py-5 flex flex-col justify-between lg:flex-row lg:justify-between bg-black">
   <div class="flex flex-row justify-between items-center">
     <a class="no-underline text-nowrap max-w-[200px]" href="/#">
       <img id="nav-bar-logo" class="h-full" src="{{ asset('images/logo-white.png') }}" alt="">

@@ -4,7 +4,7 @@
   <img id="hero-background-image" class="w-full opacity-[0.03]" src="{{ asset('images/KNYA6641.jpg') }}" alt="">
 </div>
 <section id="hero-section" class="hero-section">
-  <div class="container mx-auto px-5 flex flex-col justify-center">
+  <div class="container mx-auto flex flex-col justify-center">
     <img width="5000px" src="{{ asset('images/hero-message.png') }}" alt="">
     <div class="flex flex-col justify-center items-center md:flex-row">
       <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-clients.png') }}" alt="">
@@ -14,7 +14,7 @@
   </div>
 </section>
 <section id="about">
-  <div class="container mx-auto px-5 my-10 flex flex-col justify-center items-center">
+  <div class="container mx-auto my-10 flex flex-col justify-center items-center">
     <h1 class="text-center font-bold text-2xl md:text-3xl mb-5">About Lurtsema Communications</h1>
     <p class="text-lg text-center">Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the stage, our team is dedicated to elevating your message and amplifying your voice.</p>
     <a class="text-center border border-slate-100 px-5 rounded-full my-5 font-bold py-1 hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#">Find out more</a>

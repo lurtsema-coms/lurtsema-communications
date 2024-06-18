@@ -15,13 +15,6 @@ html {
   background: radial-gradient(circle, rgb(2, 41, 77) 0%, #020d17) 100%;
 }
 
-@layer base {
-  .container {
-    max-width: 1520px !important;
-    padding-inline: 1rem;
-  }
-}
-
 @screen lg {
   html {
     scroll-padding-top: 10rem;

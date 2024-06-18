@@ -23,6 +23,16 @@ module.exports = {
                     "linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgba(5, 15, 22, 0.811), rgb(13, 39, 55, 0.400));",
             },
         },
+        container: {
+            padding: {
+                DEFAULT: "1rem",
+                sm: "2rem",
+                md: "3rem",
+                lg: "4rem",
+                xl: "5rem",
+                "2xl": "6rem",
+            },
+        },
     },
     plugins: [],
 };
