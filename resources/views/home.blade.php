@@ -140,8 +140,13 @@
       </div>
       <div class="swiper mySwiper pb-5 w-full my-5 flex flex-col justify-center items-center">
         <div class="swiper-wrapper flex items-center mb-5">
+          @foreach ($businessLogos as $logo)
           <div class="swiper-slide flex justify-center items-center h-full">
-              <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
+            <img width="300px" class="self-center-important" src="{{ asset('images/all-business-clients/'.$logo->getFilename()) }}" alt="">
+          </div>
+          @endforeach
+          {{-- <div class="swiper-slide flex justify-center items-center h-full">
+            <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
           </div>
           <div class="swiper-slide flex justify-center items-center h-full">
               <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Hyland Hotel.png') }}" alt="">
@@ -157,7 +162,7 @@
           </div>
           <div class="swiper-slide flex justify-center items-center h-full">
               <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
-          </div>
+          </div> --}}
         </div>
         <div class="swiper-pagination"></div>
     </div>
@@ -169,7 +174,12 @@
       </div>
       <div class="swiper mySwiper pb-5 w-full my-5 flex flex-col justify-center items-center">
         <div class="swiper-wrapper flex items-center mb-5">
-            <div class="swiper-slide flex justify-center items-center h-full">
+			@foreach ($politicalLogos as $logo)
+			<div class="swiper-slide flex justify-center items-center h-full">
+				<img width="300px" class="self-center-important" src="{{ asset('images/all-political-clients/'.$logo->getFilename()) }}" alt="">
+			</div>
+			@endforeach
+            {{-- <div class="swiper-slide flex justify-center items-center h-full">
               <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Rob Yundt State Senate.png') }}" alt="">
             </div>
             <div class="swiper-slide flex justify-center items-center h-full">
@@ -186,7 +196,7 @@
             </div>
             <div class="swiper-slide flex justify-center items-center h-full">
                 <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Jubilee Underwood Logo v3.png') }}" alt="">
-            </div>
+            </div> --}}
           </div>
           <div class="swiper-pagination"></div>
     </div>
@@ -236,10 +246,10 @@
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    // },
     autoplay: {
         delay: 2000,
     },
@@ -253,11 +263,11 @@
             spaceBetween: 20,
         },
         768: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 40,
         },
         992: {
-            slidesPerView: 6,
+            slidesPerView: 8,
             spaceBetween: 50,
         },
     },
