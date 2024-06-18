@@ -243,9 +243,10 @@
 @section('scripts')
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-  var swiper = new Swiper(".mySwiper", {
+  const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
+	loop: true,
     // pagination: {
     //     el: ".swiper-pagination",
     //     clickable: true,
@@ -259,11 +260,15 @@
             spaceBetween: 20,
         },
         400: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
         },
-        768: {
+        600: {
             slidesPerView: 4,
+            spaceBetween: 30,
+        },
+        768: {
+            slidesPerView: 6,
             spaceBetween: 40,
         },
         992: {
