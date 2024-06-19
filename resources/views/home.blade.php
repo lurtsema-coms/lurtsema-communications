@@ -37,12 +37,12 @@
     </div>
   </div>
 </section>
-<section id="services" class="mt-36" data-aos="fade-up">
+<section id="services" class="mt-36" data-aos="fade-right">
   <div class="container mx-auto my-10">
     <h1 class="font-bold text-4xl">Our Services</h1>
     <p class="max-w-[800px] text-lg">We specialize in delivering comprehensive marketing solutions and creative services tailored to elevate your brands's presence in today's competetive landscape.</p>
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 my-10">
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_6.png') }}" alt="">
@@ -50,7 +50,7 @@
           <h3 class="font-bold text-lg">Business Consulting</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
         </div>
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_13.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
@@ -58,7 +58,7 @@
           <h3 class="font-bold text-lg">Social Media Marketing</h3>
           <p class="text-md">We can hep you utilize all the social media out there to grow your business and connect with your audience.</p>
         </div>
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_3.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_4.png') }}" alt="">
@@ -66,7 +66,7 @@
           <h3 class="font-bold text-lg">Website Development</h3>
           <p class="text-md">We can help you build an awesome website that will get traffic and clicks to your content.</p>
         </div>
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_17.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_18.png') }}" alt="">
@@ -74,7 +74,7 @@
           <h3 class="font-bold text-lg">SEO Optimization</h3>
           <p class="text-md">Our SEO specialists can help you rank higher on search engines and drive more organic traffic to your website.</p>
         </div>
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_9.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
@@ -82,7 +82,7 @@
           <h3 class="font-bold text-lg">Political Outreach</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
         </div>
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_15.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_16.png') }}" alt="">
@@ -90,7 +90,7 @@
           <h3 class="font-bold text-lg">Videography</h3>
           <p class="text-md">We offer professional videography services for everything from corporate videos to social media content.</p>
         </div>
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_11.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
@@ -98,7 +98,7 @@
           <h3 class="font-bold text-lg">Google Ads</h3>
           <p class="text-md">We can help you create and run effective Google Ads campagins that drive traffic and increase selling conversions.</p>
         </div>
-        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black rounded-2xl p-5 flex flex-col gap-3">
+        <div class="group border border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_7.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_8.png') }}" alt="">
@@ -109,7 +109,7 @@
     </div>
   </div>
 </section>
-<section id="awards"  class="my-36" data-aos="fade-up">
+<section id="awards"  class="my-36" data-aos="fade-left">
   <div class="container mx-auto my-10 flex flex-col justify-center items-center md:flex-row">    
     <div class="flex-grow">
       <img width="1000px" class="max-w-full" src="{{ asset('images/award-left.png') }}" alt="">
@@ -145,24 +145,6 @@
             <img width="300px" class="self-center-important" src="{{ asset('images/all-business-clients/'.$logo->getFilename()) }}" alt="">
           </div>
           @endforeach
-          {{-- <div class="swiper-slide flex justify-center items-center h-full">
-            <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Alaska Soda Jerk.png') }}" alt="">
-          </div>
-          <div class="swiper-slide flex justify-center items-center h-full">
-              <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Hyland Hotel.png') }}" alt="">
-          </div>
-          <div class="swiper-slide flex justify-center items-center h-full">
-              <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/The Alaska Life.png') }}" alt="">
-          </div>
-          <div class="swiper-slide flex justify-center items-center h-full">
-              <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Muldoon Pizza1.png') }}" alt="">
-          </div>
-          <div class="swiper-slide flex justify-center items-center h-full">
-              <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Mile 5.2 Greenhouse.png') }}" alt="">
-          </div>
-          <div class="swiper-slide flex justify-center items-center h-full">
-              <img width="300px" class="self-center-important" src="{{ asset('images/business-logo-white/Everett\'s Restaurant.png') }}" alt="">
-          </div> --}}
         </div>
         <div class="swiper-pagination"></div>
     </div>
@@ -179,26 +161,8 @@
 				<img width="300px" class="self-center-important" src="{{ asset('images/all-political-clients/'.$logo->getFilename()) }}" alt="">
 			</div>
 			@endforeach
-            {{-- <div class="swiper-slide flex justify-center items-center h-full">
-              <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Rob Yundt State Senate.png') }}" alt="">
-            </div>
-            <div class="swiper-slide flex justify-center items-center h-full">
-                <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Doug Massie.png') }}" alt="">
-            </div>
-            <div class="swiper-slide flex justify-center items-center h-full">
-                <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Kelly Merrick.png') }}" alt="">
-            </div>
-            <div class="swiper-slide flex justify-center items-center h-full">
-                <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Cathy Tilton.jpg') }}" alt="">
-            </div>
-            <div class="swiper-slide flex justify-center items-center h-full">
-                <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Forrest Wolfe.png') }}" alt="">
-            </div>
-            <div class="swiper-slide flex justify-center items-center h-full">
-                <img width="300px" class="self-center-important" src="{{ asset('images/political-logo-white/Jubilee Underwood Logo v3.png') }}" alt="">
-            </div> --}}
-          </div>
-          <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
     </div>
   </div>
