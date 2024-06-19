@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-padding-top: 18rem;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.custom-radial-gradient {
+  background: radial-gradient(circle, rgb(2, 41, 77) 0%, #020d17) 100%;
+}
+
+@screen lg {
+  html {
+    scroll-padding-top: 10rem;
+  }
+}

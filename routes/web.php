@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\Finder\Finder;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,36 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data = [];
+
+    $data['businessLogos'] = (new Finder())
+        ->files()
+        ->in(public_path('images/all-business-clients'))
+        ->depth('== 0')
+        ->name('*.jpg')
+        ->name('*.jpeg')
+        ->name('*.png')
+        ->name('*.gif')
+        ->name('*.bmp');
+
+    $data['politicalLogos'] = (new Finder())
+        ->files()
+        ->in(public_path('images/all-political-clients'))
+        ->depth('== 0')
+        ->depth('== 0')
+        ->name('*.jpg')
+        ->name('*.jpeg')
+        ->name('*.png')
+        ->name('*.gif')
+        ->name('*.bmp');
+
+    return view('home', $data);
 });
+
+Route::get('terms', function () {
+    return view('terms');
+})->name('terms');
+
+Route::get('privacy-policy', function () {
+    return view('privacy-policy');
+})->name('privacy-policy');
