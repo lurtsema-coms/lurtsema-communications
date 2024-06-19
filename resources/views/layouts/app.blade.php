@@ -14,7 +14,7 @@
         <script src="{{ asset('js/jquery-3.7.1.min.js') }}"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-inter antialiased bg-custom-blue text-slate-100 max-w-svw overflow-x-hidden">
+    <body class="font-inter antialiased bg-custom-blue text-slate-100">
       {{-- <div>
         <img src="{{ asset('images/KNYA6641.jpg') }}" alt="">
       </div> --}}
