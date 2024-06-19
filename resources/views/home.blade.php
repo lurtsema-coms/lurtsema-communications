@@ -5,11 +5,11 @@
 </div>
 <section id="hero-section" class="hero-section">
   <div class="container mx-auto flex flex-col justify-center">
-    <img width="5000px" src="{{ asset('images/hero-message.png') }}" data-aos="fade-down" alt="">
+    <img width="5000px" src="{{ asset('images/hero-message.png') }}" data-aos="fade-down" data-aos-duration="1000" alt="">
     <div class="flex flex-col justify-center items-center md:flex-row">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-clients.png') }}" data-aos="fade-right" alt="">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-customers.png') }}" data-aos="fade-down" alt="">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-campaigns.png') }}" data-aos="fade-left" alt="">
+      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-clients.png') }}" data-aos="fade-right" data-aos-duration="1000" alt="">
+      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-customers.png') }}" data-aos="fade-down" data-aos-duration="1000" alt="">
+      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-campaigns.png') }}" data-aos="fade-left" data-aos-duration="1000" alt="">
     </div>
   </div>
 </section>
