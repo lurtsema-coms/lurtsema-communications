@@ -7,8 +7,10 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('images/Icon.png') }}">
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- Scripts -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Scripts -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="{{ asset('js/jquery-3.7.1.min.js') }}"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -25,6 +27,7 @@
       </footer>
       @yield('scripts')
       <script>
+        AOS.init();
         const largeScreenBreakpoint = 1024;
 
         // Function to check if the current window width is large

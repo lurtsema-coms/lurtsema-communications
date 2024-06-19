@@ -5,22 +5,22 @@
 </div>
 <section id="hero-section" class="hero-section">
   <div class="container mx-auto flex flex-col justify-center">
-    <img width="5000px" src="{{ asset('images/hero-message.png') }}" alt="">
+    <img width="5000px" src="{{ asset('images/hero-message.png') }}" data-aos="fade-down" alt="">
     <div class="flex flex-col justify-center items-center md:flex-row">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-clients.png') }}" alt="">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-customers.png') }}" alt="">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-campaigns.png') }}" alt="">
+      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-clients.png') }}" data-aos="fade-right" alt="">
+      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-customers.png') }}" data-aos="fade-down" alt="">
+      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-campaigns.png') }}" data-aos="fade-left" alt="">
     </div>
   </div>
 </section>
-<section id="about">
+<section id="about" data-aos="fade-up">
   <div class="container mx-auto my-10 flex flex-col justify-center items-center">
     <h1 class="text-center font-bold text-2xl md:text-3xl mb-5">About Lurtsema Communications</h1>
     <p class="text-lg text-center">Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the stage, our team is dedicated to elevating your message and amplifying your voice.</p>
     <a class="text-center border border-slate-100 px-5 rounded-full my-5 font-bold py-1 hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#">Find out more</a>
   </div>
 </section>
-<section id="founder" class="mt-36">
+<section id="founder" class="mt-36" data-aos="fade-up">
   <div class="container mx-auto">
     <div class="relative min-h-[25rem] mx-3 md:mx-auto rounded-3xl custom-radial-gradient flex flex-col md:flex-row justify-center items-center p-0">
       <div class="relative pt-10 max-w-[40%] min-h-[200px] md:pt-0 md:max-w-[300px] md:min-w-[40%] md:self-end">
@@ -37,7 +37,7 @@
     </div>
   </div>
 </section>
-<section id="services" class="mt-36">
+<section id="services" class="mt-36" data-aos="fade-up">
   <div class="container mx-auto my-10">
     <h1 class="font-bold text-4xl">Our Services</h1>
     <p class="max-w-[800px] text-lg">We specialize in delivering comprehensive marketing solutions and creative services tailored to elevate your brands's presence in today's competetive landscape.</p>
@@ -109,7 +109,7 @@
     </div>
   </div>
 </section>
-<section id="awards"  class="my-36">
+<section id="awards"  class="my-36" data-aos="fade-up">
   <div class="container mx-auto my-10 flex flex-col justify-center items-center md:flex-row">    
     <div class="flex-grow">
       <img width="1000px" class="max-w-full" src="{{ asset('images/award-left.png') }}" alt="">
@@ -122,7 +122,7 @@
     </div>
   </div>
 </section>
-<section id="contact" class="bg-black bg-opacity-30">
+<section id="contact" class="bg-black bg-opacity-30" data-aos="fade-up">
   <div class="container mx-auto py-10 flex flex-col gap-5 justify-center items-center">
     <h1 class="font-bold text-4xl text-center">Let's Connect</h1>
     <h2 class="font-semibold text-3xl text-center">Ready to elevate your communication strategy?</h2>
@@ -130,7 +130,7 @@
     <a class="bg-button-blue px-5 py-1 rounded-full font-bold hover:opacity-60 transition-all duration-300 ease-in-out" href="#">Contact Us</a>
   </div>
 </section>
-<section id="clients"  class="mt-36">
+<section id="clients"  class="mt-36" data-aos="fade-up">
   <div class="container mx-auto flex flex-col justify-center items-center my-10">
     <h1 class="font-bold text-4xl text-center">Our Awesome Clients</h1>
     <div class="w-full">
@@ -203,7 +203,7 @@
     </div>
   </div>
 </section>
-<section class="bg-black bg-opacity-30">
+<section class="bg-black bg-opacity-30" data-aos="fade-up">
   <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-stretch gap-3 py-10">
     <div class="flex-grow flex flex-col md:flex-row gap-6 w-full justify-between md:justify-around lg:justify-between items-start text-slate-400">
       <div class="flex flex-col gap-3">
