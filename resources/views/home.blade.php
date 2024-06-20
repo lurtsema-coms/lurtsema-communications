@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div id="hero-background" class="absolute top-0 w-full h-full bg-custom-gradient-2 -z-10">
+<div id="hero-background" class="absolute top-0 w-full h-full bg-custom-gradient-2 -z-50">
   <img id="hero-background-image" class="w-full opacity-[0.03]" src="{{ asset('images/KNYA6641.jpg') }}" alt="">
 </div>
 <section id="hero-section" class="hero-section">
@@ -164,42 +164,6 @@
       </div>
       <div class="swiper-pagination"></div>
     </div>
-    </div>
-  </div>
-</section>
-<section class="bg-black bg-opacity-30" data-aos="fade-up">
-  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-stretch gap-3 py-10">
-    <div class="flex-grow flex flex-col md:flex-row gap-6 w-full justify-between md:justify-around lg:justify-between items-start text-slate-400">
-      <div class="flex flex-col gap-3">
-        <h4 class="text-2xl font-semibold">Marketing</h4>
-        <p class="text-md">Business Consulting</p>
-        <p class="text-md">Social Media Marketing</p>
-        <p class="text-md">Google Ads</p>
-        <p class="text-md">SEO Optimization</p>
-        <p class="text-md">Political Outreach</p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <h4 class="text-2xl font-semibold">Creatives</h4>
-        <p class="text-md">Videography</p>
-        <p class="text-md">Website Development</p>
-        <p class="text-md">Graphic Design</p>
-        <p class="text-md">SEO Optimization</p>
-        <p class="text-md">Logo Development</p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <h4 class="text-2xl font-semibold">Other</h4>
-        <p class="text-md">Solar Panels</p>
-        <p class="text-md">Real Estate Consulting</p>
-        <p class="text-md">Sales Training</p>
-        <p class="text-md">Campaign USA</p>
-      </div>
-    </div>
-    <div class="flex flex-col justify-between items-end w-full">
-      <img class="max-w-14" src="{{ asset('images/Icon.png') }}" alt="">
-      <div class="">
-        <p class="text-end font-besbas text-lg sm:text-2xl">INFO@LURTSEMACOMMUNICATIONS.COM</p>
-        <p class="text-end font-besbas text-lg sm:text-2xl">6390 NORM DRIVE, ANCHORAGE, ALASKA 99507, UNITED STATES</p>
-      </div>
     </div>
   </div>
 </section>

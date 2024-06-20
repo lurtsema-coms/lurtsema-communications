@@ -6,6 +6,7 @@
 html {
   scroll-padding-top: 18rem;
 }
+b
 
 :root {
   scroll-behavior: smooth;
@@ -13,6 +14,14 @@ html {
 
 .custom-radial-gradient {
   background: radial-gradient(circle, rgb(2, 41, 77) 0%, #020d17) 100%;
+}
+
+.custom-radial-gradient-2 {
+  background: radial-gradient(circle, #217094 0%, #0b2937) 100%;
+}
+
+.background-effect-gradient {
+  background: radial-gradient(circle, #0d3035 3%, #09202c00, #09202c00, #09202c00, #09202c00) 100%;
 }
 
 @screen lg {
