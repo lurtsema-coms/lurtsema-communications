@@ -138,7 +138,7 @@
         <div class="bg-custom-gradient w-full absolute h-[2px] -z-10"></div>
         <div class="bg-custom-gradient py-1 px-5 rounded-full font-bold">BUSINESS CLIENTS</div>
       </div>
-      <div class="swiper mySwiper pb-5 w-full my-5 flex flex-col justify-center items-center">
+      <div class="swiper mySwiper pb-5 w-full my-5">
         <div class="swiper-wrapper flex items-center mb-5">
           @foreach ($businessLogos as $logo)
           <div class="swiper-slide flex justify-center items-center h-full">
@@ -169,7 +169,6 @@
 </section>
 @endsection
 @section('scripts')
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
   const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
