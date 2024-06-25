@@ -20,7 +20,9 @@
       <div class="sticky top-0 bg-black z-40">
         @include('components.nav-bar')
       </div>
-      @yield('content')
+      <div>
+        @yield('content')
+      </div>
       <footer>
         @include('components.footer')
       </footer>

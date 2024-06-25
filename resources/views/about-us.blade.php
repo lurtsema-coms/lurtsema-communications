@@ -9,10 +9,10 @@
   </main>
   <section id="team" class="max-w-full">
     <div class="container mx-auto my-10" data-aos="flip-down" data-aos-duration="1000">
-      <div class="swiper mySwiper container mx-auto flex justify-between items-center gap-5">
+      <div class="swiper container mySwiper mx-auto flex justify-between items-center gap-5">
         <div class="swiper-wrapper flex justify-between items-center">
           @foreach ($team as $member)
-          <div class="swiper-slide group custom-radial-gradient-2 relative w-[15rem] aspect-[3/4] rounded-3xl shadow-2xl overflow-hidden ease-in-out duration-200">
+          <div class="swiper-slide group custom-radial-gradient-2 relative w-[12rem] aspect-[3/4] rounded-3xl shadow-2xl overflow-hidden ease-in-out duration-200">
             <img class="absolute bottom-0 min-w-full min-h-full object-cover object-center" src="{{ asset('images/founder-enhanced.png') }}" alt="">
             <img class="absolute bottom-0 w-full lg:opacity-0 lg:group-hover:opacity-100 ease-in-out duration-300" src="{{ asset('images/team-photos/effect.webp') }}" alt="">
             <a href="{{ $member['linked_in'] ?? '#' }}" target="{{ $member['linked_in'] ? '_blank' : '_self' }}">
