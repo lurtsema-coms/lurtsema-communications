@@ -16,11 +16,19 @@ html {
 }
 
 .custom-radial-gradient-2 {
-  background: radial-gradient(circle, #217094 0%, #0b2937) 100%;
+  background: radial-gradient(circle, #5c9ace 0%, #0b2937) 100%;
+}
+.custom-radial-gradient-3 {
+  background: radial-gradient(circle, #5c9ace 0%, #375975 30%, #2a485f 40%, #0b2937 75%) 100%;
 }
 
 .background-effect-gradient {
   background: radial-gradient(circle, #0d3035 3%, #09202c00, #09202c00, #09202c00, #09202c00) 100%;
+}
+
+.hero-section-svg {
+  background: radial-gradient(circle, #217094 0%, #0b2937) 100%;
+  background-clip: text;
 }
 
 @screen lg {
