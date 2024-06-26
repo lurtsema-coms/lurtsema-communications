@@ -17,7 +17,7 @@
         {{-- <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="#">Campaign USA</a></li> --}}
       </ul>
       <a href="#" class="flex flex-row justify-center items-center text-nowrap hover:opacity-75 lg:bg-slate-200 lg:text-black lg:font-bold rounded-full lg:px-3 lg:py-1">
-        Get in touch
+        Get In Touch
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
           <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
         </svg>

@@ -70,7 +70,7 @@
   <div class="container mx-auto my-10 flex flex-col justify-center items-center">
     <h1 class="text-center font-bold text-2xl md:text-3xl mb-5">About Lurtsema Communications</h1>
     <p class="text-lg text-center">Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the stage, our team is dedicated to elevating your message and amplifying your voice.</p>
-    <a class="text-center border border-slate-100 px-5 rounded-full my-5 font-bold py-1 hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('about-us') }}">Find out more</a>
+    <a class="text-center border border-slate-100 px-5 rounded-full my-5 font-bold py-1 hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('about-us') }}">Find Out More</a>
   </div>
 </section>
 <section id="founder" class="mt-36" data-aos="fade-up">

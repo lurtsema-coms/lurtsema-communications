@@ -25,7 +25,9 @@
       </div>
     </div>
     <div class="flex flex-col justify-between items-end w-full">
-      <img class="max-w-14" src="{{ asset('images/Icon.png') }}" alt="">
+      <a href="{{ route('home') }}#">
+        <img class="max-w-14" src="{{ asset('images/Icon.png') }}" alt="">
+      </a>
       <div class="">
         <p class="text-end font-besbas text-lg sm:text-2xl">INFO@LURTSEMACOMMUNICATIONS.COM</p>
         <p class="text-end font-besbas text-lg sm:text-2xl">6390 NORM DRIVE, ANCHORAGE, ALASKA 99507, UNITED STATES</p>
