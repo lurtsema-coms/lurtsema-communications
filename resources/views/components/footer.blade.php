@@ -14,7 +14,6 @@
         <p class="text-md">Videography</p>
         <p class="text-md">Website Development</p>
         <p class="text-md">Graphic Design</p>
-        <p class="text-md">SEO Optimization</p>
         <p class="text-md">Logo Development</p>
       </div>
       <div class="flex flex-col gap-3">
