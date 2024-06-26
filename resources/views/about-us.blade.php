@@ -34,7 +34,7 @@
   </section>
   <section class="container mx-auto my-10">
     <h1 class="text-center text-5xl font-semibold mb-10" data-aos="fade-up">ITS VISION FOR THE FUTURE? </h1>
-    <p class="font-bold text-center text-2xl my-5 max-w-screen-lg mx-auto" data-aos="fade-up">Joseph Lurtsema’s vision for Lurtsema Communications’ is to be the highest quality and most cost-effective marketing agency in Alaska. </p>
+    <p class="font-bold text-center text-2xl my-5 max-w-screen-lg mx-auto" data-aos="fade-up">Joseph Lurtsema’s vision for Lurtsema Communications is to be the highest quality and most cost-effective marketing agency in Alaska. </p>
     <p class="text-center max-w-screen-lg text-lg mx-auto" data-aos="fade-up">Lurtsema Communications started as a sole proprietorship. Joseph used to do all the graphic design, web development, videography, strategy, social media management, etc. He learned quickly that there are only 24 hours in a day, and he is only one person. His business flourished in 2018 but he hit a wall and his clients started leaving the company. In 2019, he learned the power of delegation and built a team from the ground up. He now has individuals that specialize in those different skills so that Lurtsema Communications’ clients are getting the best work possible.</p>
   </section>
 </div>
