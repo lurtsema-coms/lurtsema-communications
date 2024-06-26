@@ -1,6 +1,6 @@
 <nav id="nav-bar" class="container mx-auto py-5 flex flex-col justify-between lg:flex-row lg:justify-between">
   <div class="flex flex-row justify-between items-center">
-    <a class="no-underline text-nowrap max-w-[200px]" href="/#">
+    <a class="no-underline text-nowrap max-w-[200px]" href="{{ route('home') }}">
       <img id="nav-bar-logo" class="h-full" src="{{ asset('images/logo-white.png') }}" alt="">
     </a>
     <button id="nav-hamburger" class="rounded flex flex-col gap-1 w-[38px] lg:hidden" type="button">
@@ -12,8 +12,8 @@
   <div id="nav-list" class="hidden lg:inline flex-grow">
     <div class="flex flex-grow gap-5 flex-col items-start justify-between lg:flex-row my-5 lg:mt-5 lg:mb-0 lg:ml-5">
       <ul class="flex flex-col gap-5 lg:flex-row lg:items-end lg:gap-12 lg:ml-5">
-        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="#about">About Us</a></li>
-        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="#services">Services</a></li>
+        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="{{ route('about-us') }}">About Us</a></li>
+        {{-- <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="#services">Services</a></li> --}}
         {{-- <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="#">Campaign USA</a></li> --}}
       </ul>
       <a href="#" class="flex flex-row justify-center items-center text-nowrap hover:opacity-75 lg:bg-slate-200 lg:text-black lg:font-bold rounded-full lg:px-3 lg:py-1">
