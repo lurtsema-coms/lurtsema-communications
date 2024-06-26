@@ -41,7 +41,7 @@
       <a href="{{ route('terms') }}" class="text-lg underline">Terms</a>
       <a href="{{ route('privacy-policy') }}" class="text-lg underline">Privacy Policy</a>
     </div>
-    <div class="flex flex-col sm:flex-row gap-5 items-center sm:items-start justify-start">
+    <div class="flex flex-col sm:flex-row gap-5 items-center justify-center">
       <div class="flex justify-center items-center gap-3">
         <a class="hover:opacity-70 transition-all duration-200 ease-in-out" target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="w-11" alt=""></a>
         <a class="hover:opacity-70 transition-all duration-200 ease-in-out" target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="w-11" alt=""></a>
