@@ -44,7 +44,7 @@ class AppController extends Controller
                 'name' => 'Joe Lurtsema',
                 'title' => 'CEO/FOUNDER',
                 'img_link' => asset('images/team-photos/team-member-01.webp'),
-                'linked_in' => null,
+                'linked_in' => 'https://www.linkedin.com/in/joseph-lurtsema-683a5786/',
             ],
             [
                 'name' => 'Jubie Nebalga',
