@@ -76,7 +76,7 @@
 <section id="founder" class="mt-36" data-aos="fade-up">
   <div class="container mx-auto">
     <div class="relative min-h-[25rem] mx-3 md:mx-auto rounded-3xl custom-radial-gradient flex flex-col md:flex-row justify-center items-center p-0">
-      <div class="relative pt-10 max-w-[40%] min-h-[200px] md:pt-0 md:max-w-[300px] md:min-w-[40%] md:self-end">
+      <div class="relative pt-10 max-w-[90%] min-h-[200px] md:pt-0 md:max-w-[300px] md:min-w-[40%] md:self-end">
         <img class="z-10 md:max-h-[250%] md:left-[10%] md:absolute bottom-0" src="{{ asset('images/founder-enhanced.png') }}" alt="">
       </div>
       <div class="flex flex-col justify-center items-center md:items-start gap-5 px-10 pb-10 md:p-10">
