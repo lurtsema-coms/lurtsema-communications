@@ -15,16 +15,18 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-inter antialiased bg-custom-blue text-slate-100">
-      {{-- <div>
-        <img src="{{ asset('images/KNYA6641.jpg') }}" alt="">
-      </div> --}}
+      <div class="fixed w-full h-full background-effect-gradient -left-1/2 -z-50"></div>
+      <div class="fixed w-full h-full background-effect-gradient -right-1/2 -z-50"></div>
       <div class="sticky top-0 bg-black z-40">
         @include('components.nav-bar')
       </div>
-      @yield('content')
-      <footer class="bg-black">
+      <div>
+        @yield('content')
+      </div>
+      <footer>
         @include('components.footer')
       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       @yield('scripts')
       <script>
         AOS.init();

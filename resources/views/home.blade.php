@@ -1,23 +1,76 @@
 @extends('layouts.app')
 @section('content')
-<div id="hero-background" class="absolute top-0 w-full h-full bg-custom-gradient-2 -z-10">
+<div id="hero-background" class="absolute top-0 w-full h-full bg-custom-gradient-2 -z-50">
   <img id="hero-background-image" class="w-full opacity-[0.03]" src="{{ asset('images/KNYA6641.jpg') }}" alt="">
 </div>
 <section id="hero-section" class="hero-section">
   <div class="container mx-auto flex flex-col justify-center">
-    <img width="5000px" src="{{ asset('images/hero-message.png') }}" data-aos="fade-down" alt="">
-    <div class="flex flex-col justify-center items-center md:flex-row">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-clients.png') }}" data-aos="fade-right" alt="">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-customers.png') }}" data-aos="fade-down" alt="">
-      <img class="max-w-[40%] md:max-w-[25%]" src="{{ asset('images/number-campaigns.png') }}" data-aos="fade-left" alt="">
+    <div class="w-full flex flex-col items-center justify-center gap-12 mb-12">
+      <div class="flex justify-center items-center w-full" data-aos="fade-down" data-aos-duration="1000">
+        <svg
+          width="100%"
+          viewBox="0 0 500 150"
+          preserveAspectRatio="xMinYMid meet"
+          class="hero-section-svg"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <radialGradient id="gradientId" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+              <stop offset="0%" style="stop-color:#66a0d0;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#0e3243;stop-opacity:1" />
+            </radialGradient>
+          </defs>
+          <text
+            x="50%"
+            y="30%"
+            font-size="33"
+            font-weight="900"
+            fill="url(#gradientId)"
+            text-anchor="middle"
+            dominant-baseline="middle"
+          >
+            MARKETING THAT SHAPES
+          </text>
+          <text
+            x="50%"
+            y="70%"
+            font-size="110"
+            class="font-besbas"
+            font-weight="400"
+            fill="url(#gradientId)"
+            text-anchor="middle"
+            dominant-baseline="middle"
+          >
+            YOUR SUCCESS
+          </text>
+        </svg>
+      </div>
+      <div class="flex flex-col justify-center items-center mt-10 md:flex-row gap-y-10 lg:gap-x-10 xl:gap-x-16 2xl:gap-x-32">
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <div class="custom-radial-gradient-3 w-56 h-28 flex items-center justify-center rounded-3xl scale-100 md:scale-75 lg:scale-90 xl:scale-100 2xl:scale-125">
+            <h3 class="text-center text-4xl font-extrabold">205<span class="font-medium text-3xl">+</span><span class="block font-medium text-lg text-nowrap">Happy Clients</span></h3>
+          </div>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <div class="custom-radial-gradient-3 w-56 h-28 flex items-center justify-center rounded-3xl scale-125 md:scale-100 lg:scale-110 xl:scale-125 2xl:scale-150">
+            <h3 class="text-center text-4xl font-extrabold">35<span class="font-medium text-3xl">+</span><span class="block font-medium text-lg text-nowrap">Active Customers</span></h3>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000">
+          <div class="custom-radial-gradient-3 w-56 h-28 flex items-center justify-center rounded-3xl scale-100 md:scale-75 lg:scale-90 xl:scale-100 2xl:scale-125">
+            <h3 class="text-center text-4xl font-extrabold">100<span class="font-medium text-3xl">+</span><span class="block font-medium text-lg text-nowrap">Campaigns Won</span></h3>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<section id="about" data-aos="fade-up">
+<section id="about" data-aos="fade-up" data-aos-duration="1000">
   <div class="container mx-auto my-10 flex flex-col justify-center items-center">
     <h1 class="text-center font-bold text-2xl md:text-3xl mb-5">About Lurtsema Communications</h1>
     <p class="text-lg text-center">Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the stage, our team is dedicated to elevating your message and amplifying your voice.</p>
-    <a class="text-center border border-slate-100 px-5 rounded-full my-5 font-bold py-1 hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#">Find out more</a>
+    <a class="text-center border border-slate-100 px-5 rounded-full my-5 font-bold py-1 hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('about-us') }}">Find Out More</a>
   </div>
 </section>
 <section id="founder" class="mt-36" data-aos="fade-up">
@@ -138,7 +191,7 @@
         <div class="bg-custom-gradient w-full absolute h-[2px] -z-10"></div>
         <div class="bg-custom-gradient py-1 px-5 rounded-full font-bold">BUSINESS CLIENTS</div>
       </div>
-      <div class="swiper mySwiper pb-5 w-full my-5 flex flex-col justify-center items-center">
+      <div class="swiper mySwiper pb-5 w-full my-5">
         <div class="swiper-wrapper flex items-center mb-5">
           @foreach ($businessLogos as $logo)
           <div class="swiper-slide flex justify-center items-center h-full">
@@ -167,45 +220,8 @@
     </div>
   </div>
 </section>
-<section class="bg-black bg-opacity-30" data-aos="fade-up">
-  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-stretch gap-3 py-10">
-    <div class="flex-grow flex flex-col md:flex-row gap-6 w-full justify-between md:justify-around lg:justify-between items-start text-slate-400">
-      <div class="flex flex-col gap-3">
-        <h4 class="text-2xl font-semibold">Marketing</h4>
-        <p class="text-md">Business Consulting</p>
-        <p class="text-md">Social Media Marketing</p>
-        <p class="text-md">Google Ads</p>
-        <p class="text-md">SEO Optimization</p>
-        <p class="text-md">Political Outreach</p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <h4 class="text-2xl font-semibold">Creatives</h4>
-        <p class="text-md">Videography</p>
-        <p class="text-md">Website Development</p>
-        <p class="text-md">Graphic Design</p>
-        <p class="text-md">SEO Optimization</p>
-        <p class="text-md">Logo Development</p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <h4 class="text-2xl font-semibold">Other</h4>
-        <p class="text-md">Solar Panels</p>
-        <p class="text-md">Real Estate Consulting</p>
-        <p class="text-md">Sales Training</p>
-        <p class="text-md">Campaign USA</p>
-      </div>
-    </div>
-    <div class="flex flex-col justify-between items-end w-full">
-      <img class="max-w-14" src="{{ asset('images/Icon.png') }}" alt="">
-      <div class="">
-        <p class="text-end font-besbas text-lg sm:text-2xl">INFO@LURTSEMACOMMUNICATIONS.COM</p>
-        <p class="text-end font-besbas text-lg sm:text-2xl">6390 NORM DRIVE, ANCHORAGE, ALASKA 99507, UNITED STATES</p>
-      </div>
-    </div>
-  </div>
-</section>
 @endsection
 @section('scripts')
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
   const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,

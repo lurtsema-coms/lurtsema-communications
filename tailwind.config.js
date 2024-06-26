@@ -20,7 +20,7 @@ module.exports = {
                 "custom-gradient":
                     "linear-gradient(to left, rgba(13, 39, 55, 1) 0%, rgba(92, 151, 201, 1) 50%, rgba(13, 39, 55, 1) 100%)",
                 "custom-gradient-2":
-                    "linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgba(5, 15, 22, 0.811), rgb(13, 39, 55, 0.400));",
+                    "linear-gradient(to bottom, rgb(0, 0, 0) 60%, rgba(5, 15, 22, 0.811), #09202c00);",
             },
         },
         container: {

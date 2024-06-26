@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\AppController;
 use Illuminate\Support\Facades\Route;
-use Symfony\Component\Finder\Finder;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,32 +14,9 @@ use Symfony\Component\Finder\Finder;
 |
 */
 
-Route::get('/', function () {
-    $data = [];
+Route::get('/', [AppController::class, 'home'])->name('home');
 
-    $data['businessLogos'] = (new Finder())
-        ->files()
-        ->in(public_path('images/all-business-clients'))
-        ->depth('== 0')
-        ->name('*.jpg')
-        ->name('*.jpeg')
-        ->name('*.png')
-        ->name('*.gif')
-        ->name('*.bmp');
-
-    $data['politicalLogos'] = (new Finder())
-        ->files()
-        ->in(public_path('images/all-political-clients'))
-        ->depth('== 0')
-        ->depth('== 0')
-        ->name('*.jpg')
-        ->name('*.jpeg')
-        ->name('*.png')
-        ->name('*.gif')
-        ->name('*.bmp');
-
-    return view('home', $data);
-});
+Route::get('/about-us', [AppController::class, 'aboutUs'])->name('about-us');
 
 Route::get('terms', function () {
     return view('terms');
