@@ -18,6 +18,8 @@ Route::get('/', [AppController::class, 'home'])->name('home');
 
 Route::get('/about-us', [AppController::class, 'aboutUs'])->name('about-us');
 
+Route::get('/services/{service}', [AppController::class, 'services'])->name('services');
+
 Route::get('terms', function () {
     return view('terms');
 })->name('terms');

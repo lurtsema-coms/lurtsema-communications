@@ -36,6 +36,15 @@ class AppController extends Controller
         return view('home', $data);
     }
 
+    public function services($service)
+    {
+        if ($service === 'business-consulting') {
+            return view('services.business-consulting');
+        } else {
+            abort(404);
+        }
+    }
+
     public function aboutUs()
     {
         $data = [];

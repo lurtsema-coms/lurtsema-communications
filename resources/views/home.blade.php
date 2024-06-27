@@ -95,14 +95,14 @@
     <h1 class="font-bold text-4xl">Our Services</h1>
     <p class="max-w-[800px] text-lg">We specialize in delivering comprehensive marketing solutions and creative services tailored to elevate your brands's presence in today's competetive landscape.</p>
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 my-10">
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'business-consulting') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_6.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Business Consulting</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
-        </div>
+        </a>
         <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_13.png') }}" alt="">
