@@ -40,6 +40,8 @@ class AppController extends Controller
     {
         if ($service === 'business-consulting') {
             return view('services.business-consulting');
+        } else if ($service === 'social-media-marketing') {
+            return view('services.social-media-marketing');
         } else {
             abort(404);
         }
