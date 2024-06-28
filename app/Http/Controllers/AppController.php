@@ -42,6 +42,8 @@ class AppController extends Controller
             return view('services.business-consulting');
         } else if ($service === 'social-media-marketing') {
             return view('services.social-media-marketing');
+        } else if ($service === 'website-development') {
+            return view('services.website-development');
         } else {
             abort(404);
         }
