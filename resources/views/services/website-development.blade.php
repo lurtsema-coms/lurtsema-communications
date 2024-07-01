@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('content')
 <div class="flex flex-col justify-center items-center relative">
-  <div class="absolute inset-0 -z-10 opacity-10" data-aos="zoom-out" data-aos-duration="1500">
-    <img class="min-h-full min-w-full object-cover object-center" src="{{ asset('images/graphics/boy-on-space.svg') }}" alt="">
+  <div class="absolute inset-0 -z-10" data-aos="zoom-out" data-aos-duration="1500">
+    <img class="min-h-full min-w-full object-cover object-center opacity-50" src="{{ asset('images/graphics/boy-on-space.svg') }}" alt="">
   </div>
   <main class="container mx-auto my-10 flex flex-col justify-center items-end">
     <div class="max-w-screen-md flex flex-col items-start justify-start gap-10">
