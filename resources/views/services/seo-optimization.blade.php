@@ -8,18 +8,18 @@
     <div class="relative">
       <div class="container mx-auto py-16">
         <div class="flex flex-col justify-evenly items-center lg:gap-10 lg:flex-row lg:items-start">
-          <div class="flex-grow w-full lg:w-1/2 relative lg:place-self-stretch" data-aos="fade-right">
-            <img class="opacity-50 rounded-2xl lg:absolute lg:min-h-full lg:min-w-full object-cover" src="{{ asset('images/graphics/seo-bro.svg') }}" alt="">
-          </div>
           <div class="flex-grow lg:w-1/2 flex flex-col items-start gap-y-5">
-            <div class="w-full flex justify-center lg:justify-start flex-row gap-3" data-aos="fade-left">
+            <div class="w-full flex justify-center lg:justify-start flex-row gap-3" data-aos="fade-right">
               <div class="h-8 w-1 bg-primary-blue hidden lg:block"></div>
               <p class="text-2xl font-semibold">OUR SERVICES</p>
             </div>
-            <h1 class="text-4xl w-full text-center lg:text-left lg:text-8xl font-extrabold" data-aos="zoom-out-left" data-aos-duration="1000">SEO Optimization</h1>
+            <h1 class="text-4xl w-full text-center lg:text-left lg:text-8xl font-extrabold" data-aos="zoom-in-right" data-aos-duration="1000">SEO Optimization</h1>
             <p class="text-center lg:text-left text-2xl font-bold text-gray-400" data-aos="fade-up">Elevate your online visibility and attract more organic traffic with tailored SEO strategies designed to improve your search engine rankings.</p>
             <p class="text-center lg:text-left text-lg" data-aos="fade-up" data-aos-duration="1000"> Our SEO services begin with a comprehensive audit of your website, identifying technical issues, content gaps, and opportunities for improvement. We then develop a customized plan that includes on-page optimization, content creation, and link-building strategies. </p>
             <a class="place-self-center lg:place-self-auto border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#" data-aos="fade-up" data-aos-duration="1500">Contact Us</a>
+          </div>
+          <div class="flex-grow w-full lg:w-1/2 relative lg:place-self-stretch" data-aos="fade-right">
+            <img class="opacity-50 rounded-2xl lg:absolute lg:min-h-full lg:min-w-full object-cover" src="{{ asset('images/graphics/seo-bro.svg') }}" alt="">
           </div>
         </div>
       </div>
