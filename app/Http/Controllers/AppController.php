@@ -46,6 +46,8 @@ class AppController extends Controller
             return view('services.website-development');
         } else if ($service === 'seo-optimization') {
             return view('services.seo-optimization');
+        } else if ($service === 'political-outreach') {
+            return view('services.political-outreach');
         } else {
             abort(404);
         }

@@ -127,14 +127,14 @@
           <h3 class="font-bold text-lg">SEO Optimization</h3>
           <p class="text-md">Our SEO specialists can help you rank higher on search engines and drive more organic traffic to your website.</p>
         </a>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'political-outreach') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_9.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Political Outreach</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
-        </div>
+        </a>
         <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_15.png') }}" alt="">
