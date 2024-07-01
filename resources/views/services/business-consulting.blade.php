@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('content')
-<div class="flex flex-col justify-center items-center">
+<div class="flex flex-col justify-center items-center relative">
+  <div class="absolute inset-0 opacity-20">
+    <img class="min-w-full min-h-full object-cover absolute bottom-0" src="{{ asset('images/graphics/rose-petals.svg') }}" alt="" data-aos="zoom-out" data-aos-duration="1500">
+  </div>
   <main class="mx-auto w-full">
     <div class="relative">
-      <div class="absolute inset-0 opacity-20">
-        <img class="min-w-full min-h-full object-cover absolute bottom-0" src="{{ asset('images/graphics/rose-petals.svg') }}" alt="" data-aos="zoom-out" data-aos-duration="1500">
-      </div>
       <div class="container mx-auto py-16">
         <div class="flex flex-col justify-evenly items-center lg:gap-10 lg:flex-row lg:items-start">
           <div class="flex-grow w-full lg:w-1/2 relative lg:place-self-stretch" data-aos="fade-right">
