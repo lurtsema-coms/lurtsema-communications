@@ -49,5 +49,7 @@
           }
         });
       </script>
+      <!-- svg backgrounds from SVGBackgrounds.com -->
+      <!-- svg graphics from storyset.com -->
     </body>
 </html>
