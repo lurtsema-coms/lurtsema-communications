@@ -27,15 +27,15 @@
     <div class="md:container mx-auto flex flex-col my-20 md:gap-y-10">
       <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-end justify-center md:items-center gap-5 md:gap-10 bg-primary-blue bg-opacity-25 md:rounded-full" data-aos="fade-right">
         <h3 class="text-5xl text-button-blue font-extrabold">01</h3>
-        <p class="text-xl text-gray-300">Businesses that utilize professional consulting services can experience a 10-30% increase in operational efficiency and profitability. </p>
+        <p class="text-xl text-gray-300">Businesses that utilize professional consulting services can experience a 10-30% increase in operational efficiency and profitability. <a target="_blank" title="View Reference" href="https://wyomingllcattorney.com/Blog/Good-Profit-Margin-Small-Business" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-center justify-center md:items-center gap-5 md:gap-10 bg-primary-blue bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1000">
         <h3 class="text-5xl text-button-blue font-extrabold">02</h3>
-        <p class="text-xl text-gray-300">Achieving next-generation operational excellence can lead to significant improvements, such as a 30% increase in labor productivity. </p>
+        <p class="text-xl text-gray-300">Achieving next-generation operational excellence can lead to significant improvements, such as a 30% increase in labor productivity. <a target="_blank" title="View Reference" href="https://www.celonis.com/blog/mckinsey-process-insights-are-key-to-next-generation-operational-excellence/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-start justify-center md:items-center gap-5 md:gap-10 bg-primary-blue bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1500">
         <h3 class="text-5xl text-button-blue font-extrabold">03</h3>
-        <p class="text-xl text-gray-300">Implementing operational improvements can also result in a 25% increase in employee retention. </p>
+        <p class="text-xl text-gray-300">Implementing operational improvements can also result in a 25% increase in employee retention. <a target="_blank" title="View Reference" href="https://www.celonis.com/blog/mckinsey-process-insights-are-key-to-next-generation-operational-excellence/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
     </div>
     <div class="container mx-auto">

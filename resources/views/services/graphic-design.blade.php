@@ -27,15 +27,15 @@
     <div class="lg:container mx-auto flex flex-col my-20 lg:flex-row">
       <div class="w-full px-10 py-10 lg:py-5 lg:rounded-l-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-black bg-opacity-25" data-aos="fade-up">
         <h3 class="text-5xl text-button-blue font-extrabold">01</h3>
-        <p class="text-xl lg:text-center">People remember 65% of visual content even three days later, compared to only 10% of written information. This demonstrates the lasting impact of graphic design on memory. </p>
+        <p class="text-xl lg:text-center">People remember 65% of visual content even three days later, compared to only 10% of written information. This demonstrates the lasting impact of graphic design on memory. <a target="_blank" title="View Reference" href="https://financesonline.com/graphic-design-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full px-10 py-10 lg:py-5 flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-black bg-opacity-25" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="text-5xl text-button-blue font-extrabold">02</h3>
-        <p class="text-xl lg:text-center">Visuals are processed 60,000 times faster in the brain than text. Effective graphic design can grab attention quickly and improve engagement with marketing materials. </p>
+        <p class="text-xl lg:text-center">Visuals are processed 60,000 times faster in the brain than text. Effective graphic design can grab attention quickly and improve engagement with marketing materials. <a target="_blank" title="View Reference" href="https://financesonline.com/graphic-design-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full px-10 py-10 lg:py-5 lg:rounded-r-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-black bg-opacity-25" data-aos="fade-up" data-aos-duration="1500">
         <h3 class="text-5xl text-button-blue font-extrabold">03</h3>
-        <p class="text-xl lg:text-center">Consistent use of specific design elements can increase brand recognition by up to 80%. Good graphic design ensures that marketing materials are instantly recognizable to consumers. </p>
+        <p class="text-xl lg:text-center">Consistent use of specific design elements can increase brand recognition by up to 80%. Good graphic design ensures that marketing materials are instantly recognizable to consumers. <a target="_blank" title="View Reference" href="https://financesonline.com/graphic-design-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
     </div>
     <div class="container mx-auto">

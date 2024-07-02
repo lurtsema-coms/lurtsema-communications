@@ -27,15 +27,15 @@
     <div class="lg:container mx-auto flex flex-col my-20 lg:flex-row">
       <div class="w-full px-10 py-10 lg:py-5 lg:rounded-l-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-primary-blue bg-opacity-50" data-aos="fade-up">
         <h3 class="text-5xl text-button-blue font-extrabold">01</h3>
-        <p class="text-xl lg:text-center">68% of online experiences begin with a search engine. This emphasizes the role of search engines as the starting point for the majority of online activities, making SEO critical for visibility. </p>
+        <p class="text-xl lg:text-center">68% of online experiences begin with a search engine. This emphasizes the role of search engines as the starting point for the majority of online activities, making SEO critical for visibility. <a target="_blank" title="View Reference" href="https://ahrefs.com/blog/seo-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full px-10 py-10 lg:py-5 flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-primary-blue bg-opacity-50" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="text-5xl text-button-blue font-extrabold">02</h3>
-        <p class="text-xl lg:text-center">SEO drives 1,000%+ more traffic than organic social media. SEO’s potential to significantly outperform social media in terms of traffic generation is clear evidence of its importance.  </p>
+        <p class="text-xl lg:text-center">SEO drives 1,000%+ more traffic than organic social media. SEO’s potential to significantly outperform social media in terms of traffic generation is clear evidence of its importance.  <a target="_blank" title="View Reference" href="https://ahrefs.com/blog/seo-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full px-10 py-10 lg:py-5 lg:rounded-r-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-primary-blue bg-opacity-50" data-aos="fade-up" data-aos-duration="1500">
         <h3 class="text-5xl text-button-blue font-extrabold">03</h3>
-        <p class="text-xl lg:text-center">60% of marketers say that inbound (SEO, blog content, etc.) is their highest quality source of leads. High-quality leads are essential for business growth, and SEO is a leading method for acquiring them. </p>
+        <p class="text-xl lg:text-center">60% of marketers say that inbound (SEO, blog content, etc.) is their highest quality source of leads. High-quality leads are essential for business growth, and SEO is a leading method for acquiring them. <a target="_blank" title="View Reference" href="https://ahrefs.com/blog/seo-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
     </div>
     <div class="container mx-auto">

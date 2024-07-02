@@ -27,15 +27,15 @@
     <div class="lg:container mx-auto flex flex-col my-20 lg:flex-row">
       <div class="w-full px-10 py-10 lg:py-5 lg:rounded-l-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-black bg-opacity-25" data-aos="fade-up">
         <h3 class="text-5xl text-button-blue font-extrabold">01</h3>
-        <p class="text-xl lg:text-center">A significant 36% of marketing professionals aim to boost brand visibility and attract fresh audiences through video marketing efforts. </p>
+        <p class="text-xl lg:text-center">A significant 36% of marketing professionals aim to boost brand visibility and attract fresh audiences through video marketing efforts. <a target="_blank" title="View Reference" href="https://blog.hubspot.com/marketing/video-marketing-statistics" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full px-10 py-10 lg:py-5 flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-black bg-opacity-25" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="text-5xl text-button-blue font-extrabold">02</h3>
-        <p class="text-xl lg:text-center">An impressive 88% of businesses surveyed in a study maintain specialized teams for the production of video content, highlighting its strategic role in marketing.</p>
+        <p class="text-xl lg:text-center">An impressive 88% of businesses surveyed in a study maintain specialized teams for the production of video content, highlighting its strategic role in marketing. <a target="_blank" title="View Reference" href="https://blog.hubspot.com/marketing/video-marketing-statistics" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full px-10 py-10 lg:py-5 lg:rounded-r-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-black bg-opacity-25" data-aos="fade-up" data-aos-duration="1500">
         <h3 class="text-5xl text-button-blue font-extrabold">03</h3>
-        <p class="text-xl lg:text-center">The majority, 77%, in a survey of marketers prefer YouTube as their primary platform for hosting marketing videos, signifying its central importance in video marketing. </p>
+        <p class="text-xl lg:text-center">The majority, 77%, in a survey of marketers prefer YouTube as their primary platform for hosting marketing videos, signifying its central importance in video marketing. <a target="_blank" title="View Reference" href="https://blog.hubspot.com/marketing/video-marketing-statistics" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
     </div>
     <div class="container mx-auto">

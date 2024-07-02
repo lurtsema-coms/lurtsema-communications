@@ -22,15 +22,15 @@
 <div class="md:container mx-auto flex flex-col my-20 md:gap-y-10">
   <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-end justify-center md:items-center gap-5 md:gap-10 bg-slate-900 bg-opacity-50 md:rounded-full" data-aos="fade-right">
     <h3 class="text-5xl font-extrabold text-button-blue">01</h3>
-    <p class="text-xl text-gray-300">There are over 1.09 billion websites globally, indicating a vast digital ecosystem where a strong web presence is essential for competitiveness.  </p>
+    <p class="text-xl text-gray-300">There are over 1.09 billion websites globally, indicating a vast digital ecosystem where a strong web presence is essential for competitiveness.  <a target="_blank" title="View Reference" href="https://www.webfx.com/web-design/statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
   </div>
   <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-center justify-center md:items-center gap-5 md:gap-10 bg-slate-900 bg-opacity-50 md:rounded-full" data-aos="fade-right"  data-aos-duration="1000">
     <h3 class="text-5xl font-extrabold text-button-blue">02</h3>
-    <p class="text-xl text-gray-300">50% of consumers judge a business based on its website design, making it a critical factor in marketing and brand perception.  </p>
+    <p class="text-xl text-gray-300">50% of consumers judge a business based on its website design, making it a critical factor in marketing and brand perception. <a target="_blank" title="View Reference" href="https://www.webfx.com/web-design/statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
   </div>
   <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-start justify-center md:items-center gap-5 md:gap-10 bg-slate-900 bg-opacity-50 md:rounded-full" data-aos="fade-right"  data-aos-duration="1500">
     <h3 class="text-5xl font-extrabold text-button-blue">03</h3>
-    <p class="text-xl text-gray-300">Mobile devices account for 65.49% of global website traffic, emphasizing the need for mobile-responsive web development.</p>
+    <p class="text-xl text-gray-300">Mobile devices account for 65.49% of global website traffic, emphasizing the need for mobile-responsive web development. <a target="_blank" title="View Reference" href="https://blog.hubspot.com/marketing/web-design-stats-for-2020" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
   </div>
 </div>
 <div class="container mx-auto">

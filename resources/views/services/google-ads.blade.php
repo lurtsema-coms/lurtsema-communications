@@ -27,15 +27,15 @@
     <div class="md:container mx-auto flex flex-col my-20 md:gap-y-10">
       <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-end justify-center md:items-center gap-5 md:gap-10 bg-button-blue bg-opacity-25 md:rounded-full" data-aos="fade-right">
         <h3 class="text-5xl text-button-blue font-extrabold">01</h3>
-        <p class="text-xl text-gray-300">Google Ads is highly effective for lead generation, sending targeted leads to your website or online property. </p>
+        <p class="text-xl text-gray-300">Google Ads is highly effective for lead generation, sending targeted leads to your website or online property. <a target="_blank" title="View Reference" href="https://www.business.com/articles/6-reasons-why-your-business-should-be-using-google-adwords/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-center justify-center md:items-center gap-5 md:gap-10 bg-button-blue bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1000">
         <h3 class="text-5xl text-button-blue font-extrabold">02</h3>
-        <p class="text-xl text-gray-300">Google Ads offers an average return on investment (ROI) of 200%, meaning advertisers can expect to earn $2 for every $1 they spend on ads. </p>
+        <p class="text-xl text-gray-300">Google Ads offers an average return on investment (ROI) of 200%, meaning advertisers can expect to earn $2 for every $1 they spend on ads. <a target="_blank" title="View Reference" href="https://www.demandsage.com/google-ads-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
       <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-start justify-center md:items-center gap-5 md:gap-10 bg-button-blue bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1500">
         <h3 class="text-5xl text-button-blue font-extrabold">03</h3>
-        <p class="text-xl text-gray-300">Users directed to websites through Google Ads are 50% more likely to make a purchase compared to those coming from organic search results. </p>
+        <p class="text-xl text-gray-300">Users directed to websites through Google Ads are 50% more likely to make a purchase compared to those coming from organic search results. <a target="_blank" title="View Reference" href="https://www.demandsage.com/google-ads-statistics/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
       </div>
     </div>
     <div class="container mx-auto">

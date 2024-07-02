@@ -22,15 +22,15 @@
 <div class="lg:container mx-auto flex flex-col my-20 lg:flex-row">
   <div class="w-full px-10 py-10 lg:py-5 lg:rounded-l-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-primary-blue bg-opacity-75" data-aos="fade-up">
     <h3 class="text-5xl text-button-blue font-extrabold">01</h3>
-    <p class="text-xl lg:text-center">More than three-quarters of the world’s population aged 13+ uses social media, with a total of 4.74 billion active social media users. </p>
+    <p class="text-xl lg:text-center">More than three-quarters of the world’s population aged 13+ uses social media, with a total of 4.74 billion active social media users. <a target="_blank" title="View Reference" href="https://blog.hootsuite.com/social-media-marketing/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
   </div>
   <div class="w-full px-10 py-10 lg:py-5 flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-primary-blue bg-opacity-75" data-aos="fade-up" data-aos-duration="1000">
     <h3 class="text-5xl text-button-blue font-extrabold">02</h3>
-    <p class="text-xl lg:text-center">Unlike traditional advertising, social media marketing allows for two-way communication between individuals and brands. </p>
+    <p class="text-xl lg:text-center">Unlike traditional advertising, social media marketing allows for two-way communication between individuals and brands. <a target="_blank" title="View Reference" href="https://blog.hootsuite.com/social-media-marketing/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
   </div>
   <div class="w-full px-10 py-10 lg:py-5 lg:rounded-r-3xl flex flex-col justify-center lg:items-center lg:justify-start gap-5 lg:gap-10 bg-primary-blue bg-opacity-75" data-aos="fade-up" data-aos-duration="1500">
     <h3 class="text-5xl text-button-blue font-extrabold">03</h3>
-    <p class="text-xl lg:text-center">Social media marketing creates a sense of community, fostering brand loyalty.  </p>
+    <p class="text-xl lg:text-center">Social media marketing creates a sense of community, fostering brand loyalty.  <a target="_blank" title="View Reference" href="https://blog.hootsuite.com/social-media-marketing/" class="material-symbols-outlined text-button-blue">open_in_new</a></p>
   </div>
 </div>
 <div class="container mx-auto">
