@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <!-- Scripts -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="{{ asset('js/jquery-3.7.1.min.js') }}"></script>

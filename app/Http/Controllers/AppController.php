@@ -52,6 +52,8 @@ class AppController extends Controller
             return view('services.videography');
         } else if ($service === 'google-ads') {
             return view('services.google-ads');
+        } else if ($service === 'graphic-design') {
+            return view('services.graphic-design');
         } else {
             abort(404);
         }
