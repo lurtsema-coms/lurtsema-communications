@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('content')
 <div class="flex flex-col justify-center items-center relative">
-  <div class="absolute inset-0 opacity-5">
-    <img class="min-w-full min-h-full object-cover absolute bottom-0" src="{{ asset('images/graphics/wintery-sunburst.svg') }}" alt="" data-aos="zoom-out" data-aos-duration="1500">
+  <div class="absolute inset-0 opacity-20">
+    <img class="min-w-full min-h-full object-cover absolute bottom-0" src="{{ asset('images/graphics/slanted-gradient.svg') }}" alt="" data-aos="zoom-out" data-aos-duration="1500">
   </div>
   <main class="mx-auto w-full">
     <div class="relative">
@@ -25,15 +25,15 @@
       </div>
     </div>
     <div class="md:container mx-auto flex flex-col my-20 md:gap-y-10">
-      <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-end justify-center md:items-center gap-5 md:gap-10 bg-primary-blue bg-opacity-25 md:rounded-full" data-aos="fade-right">
+      <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-end justify-center md:items-center gap-5 md:gap-10 bg-black bg-opacity-25 md:rounded-full" data-aos="fade-right">
         <h3 class="text-5xl text-button-blue font-extrabold">01</h3>
         <p class="text-xl text-gray-300">Political digital advertising spend grew 4.6 times from 2018 to 2020, significantly outpacing the growth in federal election spending, which grew 2.4 times. </p>
       </div>
-      <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-center justify-center md:items-center gap-5 md:gap-10 bg-primary-blue bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1000">
+      <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-center justify-center md:items-center gap-5 md:gap-10 bg-black bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1000">
         <h3 class="text-5xl text-button-blue font-extrabold">02</h3>
         <p class="text-xl text-gray-300">Despite the rapid growth, political digital spend is still less than 20% of the total spend, indicating a large potential for expansion. </p>
       </div>
-      <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-start justify-center md:items-center gap-5 md:gap-10 bg-primary-blue bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1500">
+      <div class="w-full md:h-32 lg:h-36 lg:max-w-screen-sm px-10 py-10 md:py-5 flex flex-col md:flex-row self-start justify-center md:items-center gap-5 md:gap-10 bg-black bg-opacity-25 md:rounded-full" data-aos="fade-right"  data-aos-duration="1500">
         <h3 class="text-5xl text-button-blue font-extrabold">03</h3>
         <p class="text-xl text-gray-300">The pandemic contributed to Americans’ digital screen time rising to nearly 8 hours/day, necessitating a shift in political campaign strategies towards digital platforms. </p>
       </div>
