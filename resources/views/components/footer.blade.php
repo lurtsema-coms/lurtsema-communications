@@ -3,17 +3,17 @@
     <div class="flex-grow flex flex-col md:flex-row gap-6 w-full justify-between md:justify-around lg:justify-between items-start text-slate-400">
       <div class="flex flex-col gap-3">
         <h4 class="text-2xl font-semibold">Marketing</h4>
-        <p class="text-md">Business Consulting</p>
-        <p class="text-md">Social Media Marketing</p>
-        <p class="text-md">Google Ads</p>
-        <p class="text-md">SEO Optimization</p>
-        <p class="text-md">Political Outreach</p>
+        <a href="{{ route('services', 'business-consulting') }}" class="text-md underline">Business Consulting</a>
+        <a href="{{ route('services', 'social-media-marketing') }}" class="text-md underline">Social Media Marketing</a>
+        <a href="{{ route('services', 'google-ads') }}" class="text-md underline">Google Ads</a>
+        <a href="{{ route('services', 'seo-optimization') }}" class="text-md underline">SEO Optimization</a>
+        <a href="{{ route('services', 'political-outreach') }}" class="text-md underline">Political Outreach</a>
       </div>
       <div class="flex flex-col gap-3">
         <h4 class="text-2xl font-semibold">Creatives</h4>
-        <p class="text-md">Videography</p>
-        <p class="text-md">Website Development</p>
-        <p class="text-md">Graphic Design</p>
+        <a href="{{ route('services', 'videography') }}" class="text-md underline">Videography</a>
+        <a href="{{ route('services', 'website-development') }}" class="text-md underline">Website Development</a>
+        <a href="{{ route('services', 'graphic-design') }}" class="text-md underline">Graphic Design</a>
         <p class="text-md">Logo Development</p>
       </div>
       <div class="flex flex-col gap-3">
