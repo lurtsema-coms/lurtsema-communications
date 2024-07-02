@@ -50,6 +50,8 @@ class AppController extends Controller
             return view('services.political-outreach');
         } else if ($service === 'videography') {
             return view('services.videography');
+        } else if ($service === 'google-ads') {
+            return view('services.google-ads');
         } else {
             abort(404);
         }

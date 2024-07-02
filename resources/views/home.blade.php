@@ -143,14 +143,14 @@
           <h3 class="font-bold text-lg">Videography</h3>
           <p class="text-md">We offer professional videography services for everything from corporate videos to social media content.</p>
         </a>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'google-ads') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_11.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Google Ads</h3>
           <p class="text-md">We can help you create and run effective Google Ads campagins that drive traffic and increase selling conversions.</p>
-        </div>
+        </a>
         <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_7.png') }}" alt="">
