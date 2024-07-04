@@ -85,7 +85,7 @@
           <h3 class="font-besbas text-xl text-center md:text-left">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h3>
         </div>
         <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.</p>
-        <a class="border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#">Consult Now!</a>
+        <a class="border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}">Consult Now!</a>
       </div>
     </div>
   </div>
@@ -180,7 +180,7 @@
     <h1 class="font-bold text-4xl text-center">Let's Connect</h1>
     <h2 class="font-semibold text-3xl text-center">Ready to elevate your communication strategy?</h2>
     <p class="text-lg text-center">Contact us today to schedule a consultation</p>
-    <a class="bg-button-blue px-5 py-1 rounded-full font-bold hover:opacity-60 transition-all duration-300 ease-in-out" href="#">Contact Us</a>
+    <a class="bg-button-blue px-5 py-1 rounded-full font-bold hover:opacity-60 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}">Contact Us</a>
   </div>
 </section>
 <section id="clients"  class="mt-36" data-aos="fade-up">
