@@ -15,7 +15,7 @@
     </div>
     <div class="max-w-screen-sm mt-10 flex flex-col justify-start items-start gap-5" data-aos="fade-up" data-aos-duration="1500">
       <p class="text-lg text-white">Our social media marketing services are designed to create meaningful connections between your brand and your target audience. We develop customized strategies that align with your business objectives, utilizing data-driven insights to craft compelling content and manage your social media presence across all major platforms. </p>
-      <a class=" place-self-center lg:place-self-auto border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#" data-aos="fade-up" data-aos-duration="1000">Contact Us</a>
+      <a class=" place-self-center lg:place-self-auto border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}" data-aos="fade-up" data-aos-duration="1000">Contact Us</a>
     </div>
   </main>
 </div>

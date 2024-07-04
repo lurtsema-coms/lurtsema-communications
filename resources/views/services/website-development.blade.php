@@ -15,7 +15,7 @@
     </div>
     <div class="max-w-screen-md mt-10 flex flex-col justify-start items-start gap-5" data-aos="fade-up" data-aos-duration="1500">
       <p class="text-lg text-white">Our team specializes in creating websites that are not only visually appealing but also optimized for performance and usability. We take a holistic approach, integrating responsive design, fast load times, and intuitive navigation to enhance user experience.</p>
-      <a class="place-self-center lg:place-self-auto border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#" data-aos="fade-up" data-aos-duration="1000">Contact Us</a>
+      <a class="place-self-center lg:place-self-auto border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}" data-aos="fade-up" data-aos-duration="1000">Contact Us</a>
     </div>
   </main>
 </div>

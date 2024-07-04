@@ -19,7 +19,7 @@
             <h1 class="text-4xl w-full text-center lg:text-left lg:text-8xl font-extrabold" data-aos="zoom-out-left" data-aos-duration="1000">Political Outreach</h1>
             <p class="text-center lg:text-left text-2xl font-bold text-gray-400" data-aos="fade-up">We provide comprehensive services to help political candidates and campaigns effectively connect with voters and win elections.</p>
             <p class="text-center lg:text-left text-lg" data-aos="fade-up" data-aos-duration="1000">Our political outreach strategies encompass grassroots initiatives, digital advertising, and targeted messaging to ensure your campaign resonates with your audience. We develop tailored plans that leverage data analytics and voter insights to optimize your outreach efforts.</p>
-            <a class="place-self-center lg:place-self-auto border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#" data-aos="fade-up" data-aos-duration="1500">Contact Us</a>
+            <a class="place-self-center lg:place-self-auto border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}" data-aos="fade-up" data-aos-duration="1500">Contact Us</a>
           </div>
         </div>
       </div>
