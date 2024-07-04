@@ -20,6 +20,8 @@ Route::get('/about-us', [AppController::class, 'aboutUs'])->name('about-us');
 
 Route::get('/services/{service}', [AppController::class, 'services'])->name('services');
 
+Route::get('/contact-us', fn () => view('contact-us'))->name('contact-us');
+
 Route::get('terms', function () {
     return view('terms');
 })->name('terms');

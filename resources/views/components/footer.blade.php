@@ -1,4 +1,4 @@
-<section class="bg-black bg-opacity-30" data-aos="fade-up">
+<section class="bg-black bg-opacity-30">
   <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-stretch gap-3 py-10">
     <div class="flex-grow flex flex-col md:flex-row gap-6 w-full justify-between md:justify-around lg:justify-between items-start text-slate-400">
       <div class="flex flex-col gap-3">
