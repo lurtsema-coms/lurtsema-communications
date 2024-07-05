@@ -80,7 +80,7 @@ class AppController extends Controller
             ],
             [
                 'name' => 'Shaine Agonia',
-                'title' => 'Senior Communications Manager',
+                'title' => 'Senior Operations Manager',
                 'img_link' => asset('images/team-photos/team-member-02.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/shaineagonia/',
             ],
@@ -92,7 +92,7 @@ class AppController extends Controller
             ],
             [
                 'name' => 'Heaven Limin',
-                'title' => 'Creative Designer',
+                'title' => 'Senior Creative Manager',
                 'img_link' => asset('images/team-photos/team-member-04.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/christian-heaven-limin-334241205/',
             ],
