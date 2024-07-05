@@ -12,15 +12,16 @@
         <p class="text-2xl font-semibold">CONTACT US</p>
       </div>
       <h1 class="text-3xl text-center lg:text-left lg:text-8xl font-extrabold" data-aos="zoom-in-right" data-aos-duration="1000">Let's Get In Touch</h1>
-      <p class="text-lg lg:text-4xl font-semibold text-gray-300" data-aos="fade-up" data-aos-duration="1500">We'd love to hear from you! Whether you have a question, feedback, or need assistance, our team is here to help.</p>
+      <p class="text-lg lg:text-3xl font-semibold text-gray-300" data-aos="fade-up" data-aos-duration="1500">We'd love to hear from you! Whether you have a question, feedback, or need assistance, our team is here to help.</p>
     </div>
     <div class="max-w-screen-sm w-full flex-grow xl:self-start flex flex-col justify-start items-start gap-y-10" data-aos="flip-left" data-aos-duration="1000">
-      <form action="" class="w-full flex flex-col justify-center items-start gap-y-5">
+      <form action="{{ route('submit.contact-us') }}" method="POST" class="w-full flex flex-col justify-center items-start gap-y-5" autocomplete="off">
+        @csrf
           <p class="text-2xl font-semibold">How can we help you?</p>
           <p class="text-lg font-semibold">Fill out the form below, and we will get back to you as soon as possible.</p>
-          <input type="text" placeholder="Name" class="text-black border-2 w-full rounded-md p-2 active:outline-none focus:outline-none" required>
-          <input type="email" placeholder="Email" class="text-black border-2 w-full rounded-md p-2 active:outline-none focus:outline-none" required>
-          <textarea placeholder="Message" rows="5" class="text-black border-2 w-full rounded-md p-2 active:outline-none focus:outline-none resize-none" required></textarea>
+          <input name="name" type="text" placeholder="Name" class="text-black border-2 w-full rounded-md p-2 active:outline-none focus:outline-none" required>
+          <input name="email" type="email" placeholder="Email" class="text-black border-2 w-full rounded-md p-2 active:outline-none focus:outline-none" required>
+          <textarea name="message" placeholder="Message" rows="5" class="text-black border-2 w-full rounded-md p-2 active:outline-none focus:outline-none resize-none" required></textarea>
           <button class="bg-button-blue px-5 py-1 rounded-full font-bold hover:bg-blue-300 hover:text-gray-300 hover:bg-opacity-30 transition-all duration-300 ease-in-out" >Submit</button>
         </form>
         <p class="text-lg font-semibold">Alternatively, you can reach us via call or email. Don't be shy to say hello with us.</p>

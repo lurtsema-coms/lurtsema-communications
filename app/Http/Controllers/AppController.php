@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactUsMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use PhpParser\Node\Stmt\TryCatch;
 use Symfony\Component\Finder\Finder;
 
 
@@ -137,5 +140,23 @@ class AppController extends Controller
             ],
         ];
         return view('about-us', $data);
+    }
+
+    public function contactUs(Request $request)
+    {
+        $name = $request->name;
+        $email = $request->email;
+        $message = $request->message;
+
+        $details = [
+            'name' => $name,
+            'email' => $email,
+            'form_message' => $message,
+        ];
+
+        Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
+
+        //TODO: fix the email
+        dd('done');
     }
 }
