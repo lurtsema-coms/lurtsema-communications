@@ -85,16 +85,16 @@ class AppController extends Controller
                 'linked_in' => 'https://www.linkedin.com/in/shaineagonia/',
             ],
             [
-                'name' => 'Irene Martinez',
-                'title' => 'Executive Assistant',
-                'img_link' => asset('images/team-photos/team-member-12.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/irene-martinez-354353194/',
-            ],
-            [
                 'name' => 'Heaven Limin',
                 'title' => 'Senior Creative Manager',
                 'img_link' => asset('images/team-photos/team-member-04.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/christian-heaven-limin-334241205/',
+            ],
+            [
+                'name' => 'Irene Martinez',
+                'title' => 'Executive Assistant',
+                'img_link' => asset('images/team-photos/team-member-12.webp'),
+                'linked_in' => 'https://www.linkedin.com/in/irene-martinez-354353194/',
             ],
             [
                 'name' => 'Joseph Daquioag',
