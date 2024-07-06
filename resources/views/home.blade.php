@@ -85,7 +85,7 @@
           <h3 class="font-besbas text-xl text-center md:text-left">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h3>
         </div>
         <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.</p>
-        <a class="border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="#">Consult Now!</a>
+        <a class="border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}">Consult Now!</a>
       </div>
     </div>
   </div>
@@ -95,70 +95,70 @@
     <h1 class="font-bold text-4xl">Our Services</h1>
     <p class="max-w-[800px] text-lg">We specialize in delivering comprehensive marketing solutions and creative services tailored to elevate your brands's presence in today's competetive landscape.</p>
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 my-10">
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'business-consulting') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_6.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Business Consulting</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
-        </div>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        </a>
+        <a href="{{ route('services', 'social-media-marketing') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_13.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Social Media Marketing</h3>
           <p class="text-md">We can hep you utilize all the social media out there to grow your business and connect with your audience.</p>
-        </div>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        </a>
+        <a href="{{ route('services', 'website-development') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_3.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_4.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Website Development</h3>
           <p class="text-md">We can help you build an awesome website that will get traffic and clicks to your content.</p>
-        </div>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        </a>
+        <a href="{{ route('services', 'seo-optimization') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_17.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_18.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">SEO Optimization</h3>
           <p class="text-md">Our SEO specialists can help you rank higher on search engines and drive more organic traffic to your website.</p>
-        </div>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        </a>
+        <a href="{{ route('services', 'political-outreach') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_9.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Political Outreach</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
-        </div>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        </a>
+        <a href="{{ route('services', 'videography') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_15.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_16.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Videography</h3>
           <p class="text-md">We offer professional videography services for everything from corporate videos to social media content.</p>
-        </div>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        </a>
+        <a href="{{ route('services', 'google-ads') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_11.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Google Ads</h3>
           <p class="text-md">We can help you create and run effective Google Ads campagins that drive traffic and increase selling conversions.</p>
-        </div>
-        <div class="group border cursor-default border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        </a>
+        <a href="{{ route('services', 'graphic-design') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_7.png') }}" alt="">
             <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_8.png') }}" alt="">
           </div>
           <h3 class="font-bold text-lg">Graphic Design</h3>
           <p class="text-md">Our talented designers can help you create and develop beautiful graphics to elevate your brand.</p>
-        </div>
+        </a>
     </div>
   </div>
 </section>
@@ -180,7 +180,7 @@
     <h1 class="font-bold text-4xl text-center">Let's Connect</h1>
     <h2 class="font-semibold text-3xl text-center">Ready to elevate your communication strategy?</h2>
     <p class="text-lg text-center">Contact us today to schedule a consultation</p>
-    <a class="bg-button-blue px-5 py-1 rounded-full font-bold hover:opacity-60 transition-all duration-300 ease-in-out" href="#">Contact Us</a>
+    <a class="bg-button-blue px-5 py-1 rounded-full font-bold hover:opacity-60 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}">Contact Us</a>
   </div>
 </section>
 <section id="clients"  class="mt-36" data-aos="fade-up">

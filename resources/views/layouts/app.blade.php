@@ -9,12 +9,13 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <!-- Scripts -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="{{ asset('js/jquery-3.7.1.min.js') }}"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-inter antialiased bg-custom-blue text-slate-100">
+    <body class="font-inter antialiased bg-custom-blue text-slate-100 max-w-[100vw] overflow-x-hidden">
       <div class="fixed w-full h-full background-effect-gradient -left-1/2 -z-50"></div>
       <div class="fixed w-full h-full background-effect-gradient -right-1/2 -z-50"></div>
       <div class="sticky top-0 bg-black z-40">
@@ -49,5 +50,7 @@
           }
         });
       </script>
+      <!-- svg backgrounds from SVGBackgrounds.com -->
+      <!-- svg graphics from storyset.com -->
     </body>
 </html>

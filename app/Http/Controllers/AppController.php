@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactUsMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use PhpParser\Node\Stmt\TryCatch;
 use Symfony\Component\Finder\Finder;
 
 
@@ -36,6 +39,29 @@ class AppController extends Controller
         return view('home', $data);
     }
 
+    public function services($service)
+    {
+        if ($service === 'business-consulting') {
+            return view('services.business-consulting');
+        } else if ($service === 'social-media-marketing') {
+            return view('services.social-media-marketing');
+        } else if ($service === 'website-development') {
+            return view('services.website-development');
+        } else if ($service === 'seo-optimization') {
+            return view('services.seo-optimization');
+        } else if ($service === 'political-outreach') {
+            return view('services.political-outreach');
+        } else if ($service === 'videography') {
+            return view('services.videography');
+        } else if ($service === 'google-ads') {
+            return view('services.google-ads');
+        } else if ($service === 'graphic-design') {
+            return view('services.graphic-design');
+        } else {
+            abort(404);
+        }
+    }
+
     public function aboutUs()
     {
         $data = [];
@@ -54,7 +80,7 @@ class AppController extends Controller
             ],
             [
                 'name' => 'Shaine Agonia',
-                'title' => 'Senior Communications Manager',
+                'title' => 'Senior Operations Manager',
                 'img_link' => asset('images/team-photos/team-member-02.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/shaineagonia/',
             ],
@@ -66,7 +92,7 @@ class AppController extends Controller
             ],
             [
                 'name' => 'Heaven Limin',
-                'title' => 'Creative Designer',
+                'title' => 'Senior Creative Manager',
                 'img_link' => asset('images/team-photos/team-member-04.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/christian-heaven-limin-334241205/',
             ],
@@ -114,5 +140,23 @@ class AppController extends Controller
             ],
         ];
         return view('about-us', $data);
+    }
+
+    public function contactUs(Request $request)
+    {
+        $name = $request->name;
+        $email = $request->email;
+        $message = $request->message;
+
+        $details = [
+            'name' => $name,
+            'email' => $email,
+            'form_message' => $message,
+        ];
+
+        // Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
+
+        //TODO: fix the email
+        return redirect()->back()->with('success', 'Thank you for contacting us!');
     }
 }
