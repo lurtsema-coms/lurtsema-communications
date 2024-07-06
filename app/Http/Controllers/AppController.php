@@ -154,9 +154,9 @@ class AppController extends Controller
             'form_message' => $message,
         ];
 
-        Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
+        // Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
 
         //TODO: fix the email
-        dd('done');
+        return redirect()->back()->with('success', 'Thank you for contacting us!');
     }
 }
