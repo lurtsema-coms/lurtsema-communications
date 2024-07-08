@@ -30,7 +30,9 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       @yield('scripts')
       <script>
-        AOS.init();
+        $(document).ready(function() {
+          AOS.init();
+        });
         const largeScreenBreakpoint = 1024;
 
         // Function to check if the current window width is large
