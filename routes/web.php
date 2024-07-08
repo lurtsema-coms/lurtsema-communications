@@ -22,6 +22,7 @@ Route::get('/services/{service}', [AppController::class, 'services'])->name('ser
 
 Route::get('/contact-us', fn () => view('contact-us'))->name('contact-us');
 Route::post('/contact-us', [AppController::class, 'contactUs'])->name('submit.contact-us');
+Route::get('contact-us/download', [AppController::class, 'downloadContactUsResponses'])->name('download.contact-us');
 
 Route::get('terms', function () {
     return view('terms');

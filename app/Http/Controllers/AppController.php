@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\ContactUsMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Storage;
 use PhpParser\Node\Stmt\TryCatch;
 use Symfony\Component\Finder\Finder;
 
@@ -148,15 +149,42 @@ class AppController extends Controller
         $email = $request->email;
         $message = $request->message;
 
-        $details = [
-            'name' => $name,
-            'email' => $email,
-            'form_message' => $message,
+        $formResponse = [
+            $name,
+            $email,
+            $message,
+            date('Y-m-d H:i:s'),
         ];
 
+        $filePath = 'data/form-responses.csv';
+
+        if (Storage::exists($filePath)) {
+            $stream = fopen(storage_path('app/' . $filePath), 'a');
+        } else {
+            $stream = fopen(storage_path('app/' . $filePath), 'w');
+            fputcsv($stream, ['Name', 'Email', 'Message', 'Date']);
+        }
+
+
+        fputcsv($stream, $formResponse);
+
+        fclose($stream);
         // Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
 
         //TODO: fix the email
         return redirect()->back()->with('success', 'Thank you for contacting us!');
+    }
+
+    public function downloadContactUsResponses(Request $request)
+    {
+        $filename = 'data/form-responses.csv';
+        $filePath = storage_path('app/' . $filename);
+
+        if (!Storage::exists($filename)) {
+            abort(404);
+        }
+
+        // Generate a response to force the download of the file
+        return response()->download($filePath);
     }
 }
