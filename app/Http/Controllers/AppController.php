@@ -157,6 +157,10 @@ class AppController extends Controller
         ];
 
         $filePath = 'data/form-responses.csv';
+        $directoryPath = dirname($filePath);
+        if (!Storage::exists($directoryPath)) {
+            Storage::makeDirectory($directoryPath);
+        }
 
         if (Storage::exists($filePath)) {
             $stream = fopen(storage_path('app/' . $filePath), 'a');
