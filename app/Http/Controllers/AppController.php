@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 use PhpParser\Node\Stmt\TryCatch;
 use Symfony\Component\Finder\Finder;
-
+use Throwable;
 
 class AppController extends Controller
 {
@@ -149,34 +149,20 @@ class AppController extends Controller
         $email = $request->email;
         $message = $request->message;
 
-        $formResponse = [
-            $name,
-            $email,
-            $message,
-            date('Y-m-d H:i:s'),
-        ];
-
-        $filePath = 'data/form-responses.csv';
-        $directoryPath = dirname($filePath);
-        if (!Storage::exists($directoryPath)) {
-            Storage::makeDirectory($directoryPath);
+        try {
+            $details = [
+                'name' => $name,
+                'email' => $email,
+                'form_message' => $message,
+            ];
+            Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
+            $returnStatus = 'success';
+            $returnMessage = "Thanks for contacting us. We'll get back to you as soon as possible.";
+        } catch (Throwable $e) {
+            $returnStatus = 'error';
+            $returnMessage = "Something went wrong, please try again later.";
         }
-
-        if (Storage::exists($filePath)) {
-            $stream = fopen(storage_path('app/' . $filePath), 'a');
-        } else {
-            $stream = fopen(storage_path('app/' . $filePath), 'w');
-            fputcsv($stream, ['Name', 'Email', 'Message', 'Date']);
-        }
-
-
-        fputcsv($stream, $formResponse);
-
-        fclose($stream);
-        // Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
-
-        //TODO: fix the email
-        return redirect()->back()->with('success', 'Thank you for contacting us!');
+        return redirect()->back()->with($returnStatus, $returnMessage);
     }
 
     public function downloadContactUsResponses(Request $request)
