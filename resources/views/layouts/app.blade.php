@@ -22,7 +22,24 @@
           gtag('js', new Date());
         
           gtag('config', "{{ env('GOOGLE_ANALYTICS_ID') }}");
-        </script>  
+        </script>
+        <script>
+          function gtag_report_conversion(url) {
+            let callback = function () {
+              if (typeof(url) != 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+                'send_to': "{{ env('GOOGLE_ANALYTICS_ID') }}/yZUkCMXLhs4ZENbjlZQ-",
+                'value': 1.0,
+                'currency': 'PHP',
+                'transaction_id': '',
+                'event_callback': callback
+            });
+            return false;
+          }
+          </script>
     </head>
     <body class="font-inter antialiased bg-custom-blue text-slate-100 max-w-[100vw] overflow-x-hidden">
       <div class="fixed w-full h-full background-effect-gradient -left-1/2 -z-50"></div>
