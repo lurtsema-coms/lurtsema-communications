@@ -21,7 +21,7 @@
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
-          gtag('config', 'AW-16685298134');
+          gtag('config', "{{ env('GOOGLE_ANALYTICS_ID') }}");
         </script>  
     </head>
     <body class="font-inter antialiased bg-custom-blue text-slate-100 max-w-[100vw] overflow-x-hidden">
