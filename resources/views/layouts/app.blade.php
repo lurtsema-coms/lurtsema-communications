@@ -79,7 +79,8 @@
         });
         
         // Function for gtag conversion tracking
-        $('a').on('click', function() {
+        $('a').on('click', function(event) {
+          event.preventDefault();
           gtag_report_conversion($(this).attr('href'));
         });
       </script>
