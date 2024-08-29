@@ -77,6 +77,11 @@
             $('#nav-list').slideToggle();
           }
         });
+        
+        // Function for gtag conversion tracking
+        $('a').on('click', function() {
+          gtag_report_conversion($(this).attr('href'));
+        });
       </script>
       <!-- svg backgrounds from SVGBackgrounds.com -->
       <!-- svg graphics from storyset.com -->

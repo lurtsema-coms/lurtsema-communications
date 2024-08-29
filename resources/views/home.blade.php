@@ -4,9 +4,9 @@
   <img id="hero-background-image" class="w-full opacity-[0.03]" src="{{ asset('images/KNYA6641.jpg') }}" alt="">
 </div>
 <section id="hero-section" class="hero-section">
-  <div class="container mx-auto flex flex-col justify-center">
-    <div class="w-full flex flex-col items-center justify-center gap-12 mb-12">
-      <div class="flex justify-center items-center w-full" data-aos="fade-down" data-aos-duration="1000">
+  <div class="container flex flex-col justify-center mx-auto">
+    <div class="flex flex-col items-center justify-center w-full gap-12 mb-12">
+      <div class="flex items-center justify-center w-full" data-aos="fade-down" data-aos-duration="1000">
         <svg
           width="100%"
           viewBox="0 0 500 150"
@@ -46,20 +46,20 @@
           </text>
         </svg>
       </div>
-      <div class="flex flex-col justify-center items-center mt-10 md:flex-row gap-y-10 lg:gap-x-10 xl:gap-x-16 2xl:gap-x-32">
+      <div class="flex flex-col items-center justify-center mt-10 md:flex-row gap-y-10 lg:gap-x-10 xl:gap-x-16 2xl:gap-x-32">
         <div data-aos="fade-right" data-aos-duration="1000">
-          <div class="custom-radial-gradient-3 w-56 h-28 flex items-center justify-center rounded-3xl scale-100 md:scale-75 lg:scale-90 xl:scale-100 2xl:scale-125">
-            <h3 class="text-center text-4xl font-extrabold">205<span class="font-medium text-3xl">+</span><span class="block font-medium text-lg text-nowrap">Happy Clients</span></h3>
+          <div class="flex items-center justify-center w-56 scale-100 custom-radial-gradient-3 h-28 rounded-3xl md:scale-75 lg:scale-90 xl:scale-100 2xl:scale-125">
+            <h3 class="text-4xl font-extrabold text-center">205<span class="text-3xl font-medium">+</span><span class="block text-lg font-medium text-nowrap">Happy Clients</span></h3>
           </div>
         </div>
         <div data-aos="fade-down" data-aos-duration="1000">
-          <div class="custom-radial-gradient-3 w-56 h-28 flex items-center justify-center rounded-3xl scale-125 md:scale-100 lg:scale-110 xl:scale-125 2xl:scale-150">
-            <h3 class="text-center text-4xl font-extrabold">35<span class="font-medium text-3xl">+</span><span class="block font-medium text-lg text-nowrap">Active Customers</span></h3>
+          <div class="flex items-center justify-center w-56 scale-125 custom-radial-gradient-3 h-28 rounded-3xl md:scale-100 lg:scale-110 xl:scale-125 2xl:scale-150">
+            <h3 class="text-4xl font-extrabold text-center">35<span class="text-3xl font-medium">+</span><span class="block text-lg font-medium text-nowrap">Active Customers</span></h3>
           </div>
         </div>
         <div data-aos="fade-left" data-aos-duration="1000">
-          <div class="custom-radial-gradient-3 w-56 h-28 flex items-center justify-center rounded-3xl scale-100 md:scale-75 lg:scale-90 xl:scale-100 2xl:scale-125">
-            <h3 class="text-center text-4xl font-extrabold">100<span class="font-medium text-3xl">+</span><span class="block font-medium text-lg text-nowrap">Campaigns Won</span></h3>
+          <div class="flex items-center justify-center w-56 scale-100 custom-radial-gradient-3 h-28 rounded-3xl md:scale-75 lg:scale-90 xl:scale-100 2xl:scale-125">
+            <h3 class="text-4xl font-extrabold text-center">100<span class="text-3xl font-medium">+</span><span class="block text-lg font-medium text-nowrap">Campaigns Won</span></h3>
           </div>
         </div>
       </div>
@@ -67,10 +67,10 @@
   </div>
 </section>
 <section id="about" data-aos="fade-up" data-aos-duration="1000">
-  <div class="container mx-auto my-10 flex flex-col justify-center items-center">
-    <h1 class="text-center font-bold text-2xl md:text-3xl mb-5">About Lurtsema Communications</h1>
+  <div class="container flex flex-col items-center justify-center mx-auto my-10">
+    <h1 class="mb-5 text-2xl font-bold text-center md:text-3xl">About Lurtsema Communications</h1>
     <p class="text-lg text-center">Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the stage, our team is dedicated to elevating your message and amplifying your voice.</p>
-    <a class="text-center border border-slate-100 px-5 rounded-full my-5 font-bold py-1 hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('about-us') }}">Find Out More</a>
+    <a class="px-5 py-1 my-5 font-bold text-center transition-all duration-300 ease-in-out border rounded-full border-slate-100 hover:text-black hover:bg-slate-200" href="{{ route('about-us') }}">Find Out More</a>
   </div>
 </section>
 <section id="founder" class="mt-36" data-aos="fade-up">
@@ -79,91 +79,91 @@
       <div class="relative pt-10 max-w-[90%] min-h-[200px] md:pt-0 md:max-w-[300px] md:min-w-[40%] md:self-end">
         <img class="z-10 md:max-h-[250%] md:left-[10%] md:absolute bottom-0" src="{{ asset('images/founder-enhanced.png') }}" alt="">
       </div>
-      <div class="flex flex-col justify-center items-center md:items-start gap-5 px-10 pb-10 md:p-10">
+      <div class="flex flex-col items-center justify-center gap-5 px-10 pb-10 md:items-start md:p-10">
         <div>
-          <h1 class="text-3xl text-center md:text-left md:text-4xl font-bold">Joe Lurtsema</h1>
-          <h3 class="font-besbas text-xl text-center md:text-left">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h3>
+          <h1 class="text-3xl font-bold text-center md:text-left md:text-4xl">Joe Lurtsema</h1>
+          <h3 class="text-xl text-center font-besbas md:text-left">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h3>
         </div>
         <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.</p>
-        <a class="border border-slate-200 px-5 py-1 rounded-full font-bold hover:text-black hover:bg-slate-200 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}">Consult Now!</a>
+        <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out border rounded-full border-slate-200 hover:text-black hover:bg-slate-200" href="{{ route('contact-us') }}">Consult Now!</a>
       </div>
     </div>
   </div>
 </section>
 <section id="services" class="mt-36">
   <div class="container mx-auto my-10" data-aos="fade-up">
-    <h1 class="font-bold text-4xl">Our Services</h1>
+    <h1 class="text-4xl font-bold">Our Services</h1>
     <p class="max-w-[800px] text-lg">We specialize in delivering comprehensive marketing solutions and creative services tailored to elevate your brands's presence in today's competetive landscape.</p>
-    <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 my-10">
-        <a href="{{ route('services', 'business-consulting') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+    <div class="grid gap-8 my-10 md:grid-cols-2 xl:grid-cols-4">
+        <a href="{{ route('services', 'business-consulting') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_5.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_6.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_6.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">Business Consulting</h3>
+          <h3 class="text-lg font-bold">Business Consulting</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
         </a>
-        <a href="{{ route('services', 'social-media-marketing') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'social-media-marketing') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_13.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">Social Media Marketing</h3>
+          <h3 class="text-lg font-bold">Social Media Marketing</h3>
           <p class="text-md">We can hep you utilize all the social media out there to grow your business and connect with your audience.</p>
         </a>
-        <a href="{{ route('services', 'website-development') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'website-development') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_3.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_4.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_4.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">Website Development</h3>
+          <h3 class="text-lg font-bold">Website Development</h3>
           <p class="text-md">We can help you build an awesome website that will get traffic and clicks to your content.</p>
         </a>
-        <a href="{{ route('services', 'seo-optimization') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'seo-optimization') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_17.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_18.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_18.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">SEO Optimization</h3>
+          <h3 class="text-lg font-bold">SEO Optimization</h3>
           <p class="text-md">Our SEO specialists can help you rank higher on search engines and drive more organic traffic to your website.</p>
         </a>
-        <a href="{{ route('services', 'political-outreach') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'political-outreach') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_9.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">Political Outreach</h3>
+          <h3 class="text-lg font-bold">Political Outreach</h3>
           <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
         </a>
-        <a href="{{ route('services', 'videography') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'videography') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_15.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_16.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_16.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">Videography</h3>
+          <h3 class="text-lg font-bold">Videography</h3>
           <p class="text-md">We offer professional videography services for everything from corporate videos to social media content.</p>
         </a>
-        <a href="{{ route('services', 'google-ads') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'google-ads') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_11.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">Google Ads</h3>
+          <h3 class="text-lg font-bold">Google Ads</h3>
           <p class="text-md">We can help you create and run effective Google Ads campagins that drive traffic and increase selling conversions.</p>
         </a>
-        <a href="{{ route('services', 'graphic-design') }}" class="group border cursor-pointer border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 duration-300 ease-in-out rounded-2xl p-5 flex flex-col gap-3" data-aos="flip-left">
+        <a href="{{ route('services', 'graphic-design') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
             <img class="w-full group-hover:hidden" src="{{ asset('images/Icons/Icons_7.png') }}" alt="">
-            <img class="w-full hidden group-hover:inline" src="{{ asset('images/Icons/Icons_8.png') }}" alt="">
+            <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_8.png') }}" alt="">
           </div>
-          <h3 class="font-bold text-lg">Graphic Design</h3>
+          <h3 class="text-lg font-bold">Graphic Design</h3>
           <p class="text-md">Our talented designers can help you create and develop beautiful graphics to elevate your brand.</p>
         </a>
     </div>
   </div>
 </section>
 <section id="awards"  class="my-36" data-aos="fade-up">
-  <div class="container mx-auto my-10 flex flex-col justify-center items-center md:flex-row">    
+  <div class="container flex flex-col items-center justify-center mx-auto my-10 md:flex-row">    
     <div class="flex-grow">
       <img width="1000px" class="max-w-full" src="{{ asset('images/award-left.png') }}" alt="">
     </div>
@@ -176,25 +176,25 @@
   </div>
 </section>
 <section id="contact" class="bg-black bg-opacity-30" data-aos="fade-up">
-  <div class="container mx-auto py-10 flex flex-col gap-5 justify-center items-center">
-    <h1 class="font-bold text-4xl text-center">Let's Connect</h1>
-    <h2 class="font-semibold text-3xl text-center">Ready to elevate your communication strategy?</h2>
+  <div class="container flex flex-col items-center justify-center gap-5 py-10 mx-auto">
+    <h1 class="text-4xl font-bold text-center">Let's Connect</h1>
+    <h2 class="text-3xl font-semibold text-center">Ready to elevate your communication strategy?</h2>
     <p class="text-lg text-center">Contact us today to schedule a consultation</p>
-    <a class="bg-button-blue px-5 py-1 rounded-full font-bold hover:opacity-60 transition-all duration-300 ease-in-out" href="{{ route('contact-us') }}">Contact Us</a>
+    <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out rounded-full bg-button-blue hover:opacity-60" href="{{ route('contact-us') }}">Contact Us</a>
   </div>
 </section>
 <section id="clients"  class="mt-36" data-aos="fade-up">
-  <div class="container mx-auto flex flex-col justify-center items-center my-10">
-    <h1 class="font-bold text-4xl text-center">Our Awesome Clients</h1>
+  <div class="container flex flex-col items-center justify-center mx-auto my-10">
+    <h1 class="text-4xl font-bold text-center">Our Awesome Clients</h1>
     <div class="w-full">
-      <div class="relative my-12 w-full flex justify-center items-center">
+      <div class="relative flex items-center justify-center w-full my-12">
         <div class="bg-custom-gradient w-full absolute h-[2px] -z-10"></div>
-        <div class="bg-custom-gradient py-1 px-5 rounded-full font-bold">BUSINESS CLIENTS</div>
+        <div class="px-5 py-1 font-bold rounded-full bg-custom-gradient">BUSINESS CLIENTS</div>
       </div>
-      <div class="swiper mySwiper pb-5 w-full my-5">
-        <div class="swiper-wrapper flex items-center mb-5">
+      <div class="w-full pb-5 my-5 swiper mySwiper">
+        <div class="flex items-center mb-5 swiper-wrapper">
           @foreach ($businessLogos as $logo)
-          <div class="swiper-slide flex justify-center items-center h-full">
+          <div class="flex items-center justify-center h-full swiper-slide">
             <img width="300px" class="self-center-important" src="{{ asset('images/all-business-clients/'.$logo->getFilename()) }}" alt="">
           </div>
           @endforeach
@@ -203,14 +203,14 @@
     </div>
     </div>
     <div class="w-full">
-      <div class="relative my-12 w-full flex justify-center items-center">
+      <div class="relative flex items-center justify-center w-full my-12">
         <div class="bg-custom-gradient w-full absolute h-[2px] -z-10"></div>
-        <div class="bg-custom-gradient py-1 px-5 rounded-full font-bold">POLITICAL CLIENTS</div>
+        <div class="px-5 py-1 font-bold rounded-full bg-custom-gradient">POLITICAL CLIENTS</div>
       </div>
-      <div class="swiper mySwiper pb-5 w-full my-5 flex flex-col justify-center items-center">
-        <div class="swiper-wrapper flex items-center mb-5">
+      <div class="flex flex-col items-center justify-center w-full pb-5 my-5 swiper mySwiper">
+        <div class="flex items-center mb-5 swiper-wrapper">
 			@foreach ($politicalLogos as $logo)
-			<div class="swiper-slide flex justify-center items-center h-full">
+			<div class="flex items-center justify-center h-full swiper-slide">
 				<img width="300px" class="self-center-important" src="{{ asset('images/all-political-clients/'.$logo->getFilename()) }}" alt="">
 			</div>
 			@endforeach
