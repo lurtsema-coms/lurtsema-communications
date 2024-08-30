@@ -27,6 +27,7 @@
           function gtag_report_conversion(url) {
             let callback = function () {
               if (typeof(url) != 'undefined') {
+                console.log(url);
                 window.location = url;
               }
             };
@@ -81,7 +82,8 @@
         // Function for gtag conversion tracking
         $('a').on('click', function(event) {
           event.preventDefault();
-          gtag_report_conversion($(this).attr('href'));
+          const value = gtag_report_conversion($(this).attr('href'));
+          if (!value) location.assign($(this).attr('href'));
         });
       </script>
       <!-- svg backgrounds from SVGBackgrounds.com -->
