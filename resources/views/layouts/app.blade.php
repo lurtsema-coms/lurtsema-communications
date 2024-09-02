@@ -80,7 +80,7 @@
         });
         
         // Function for gtag conversion tracking
-        $('a').on('click', function(event) {
+        $('a:not(#client-portal-btn)').on('click', function(event) {
           event.preventDefault();
           const value = gtag_report_conversion($(this).attr('href'));
           if (!value) location.assign($(this).attr('href'));
