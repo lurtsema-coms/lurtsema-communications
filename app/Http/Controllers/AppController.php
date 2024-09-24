@@ -133,12 +133,6 @@ class AppController extends Controller
                 'img_link' => asset('images/team-photos/team-member-11.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/denisebautista20031213/',
             ],
-            [
-                'name' => 'Regina Villa',
-                'title' => 'Bookkeeper & Accountant',
-                'img_link' => asset('images/team-photos/team-member-09.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/regina-s-vila-7154421a0/',
-            ],
         ];
         return view('about-us', $data);
     }
