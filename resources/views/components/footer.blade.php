@@ -44,10 +44,10 @@
     </div>
     <div class="flex flex-col items-center justify-center gap-5 sm:flex-row">
       <div class="flex items-center justify-center gap-3">
-        <a class="transition-all duration-200 ease-in-out hover:opacity-70" target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="w-11" alt=""></a>
-        <a class="transition-all duration-200 ease-in-out hover:opacity-70" target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="w-11" alt=""></a>
-        <a class="transition-all duration-200 ease-in-out hover:opacity-70" target="_blank" href="https://www.instagram.com/lurtsemacommunications/"><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="w-11" alt=""></a>
-        <a class="transition-all duration-200 ease-in-out hover:opacity-70" target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="w-11" alt=""></a>
+        <a class="transition-all duration-200 ease-in-out social-link hover:opacity-70" target="_blank" href="https://www.youtube.com/@LurtsemaCommunications"><img src="{{ asset('images/logo-socmed/logo-yt.png') }}" class="w-11" alt=""></a>
+        <a class="transition-all duration-200 ease-in-out social-link hover:opacity-70" target="_blank" href="https://www.facebook.com/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-fb.png') }}" class="w-11" alt=""></a>
+        <a class="transition-all duration-200 ease-in-out social-link hover:opacity-70" target="_blank" href="https://www.instagram.com/lurtsemacommunications/"><img src="{{ asset('images/logo-socmed/logo-ig.png') }}" class="w-11" alt=""></a>
+        <a class="transition-all duration-200 ease-in-out social-link hover:opacity-70" target="_blank" href="http://www.linkedin.com/company/lurtsemacommunications"><img src="{{ asset('images/logo-socmed/logo-li.png') }}" class="w-11" alt=""></a>
       </div>
       {{-- <div class="flex items-center justify-center gap-3">
           <a class="px-5 py-1 font-semibold text-black transition-all duration-200 ease-in-out rounded-full bg-slate-50 text-nowrap hover:opacity-70" href="https://hrportal.lurtsemacommunications.com/" target="_blank">Employee Login</a>

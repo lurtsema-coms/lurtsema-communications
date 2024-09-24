@@ -80,7 +80,7 @@
         });
         
         // Function for gtag conversion tracking
-        $('a:not(#client-portal-btn, .material-symbols-outlined, .linked-in-profile)').on('click', function(event) {
+        $('a:not(#client-portal-btn, .material-symbols-outlined, .linked-in-profile, .social-link)').on('click', function(event) {
           event.preventDefault();
           const value = gtag_report_conversion($(this).attr('href'));
           if (!value) location.assign($(this).attr('href'));
