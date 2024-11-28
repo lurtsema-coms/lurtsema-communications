@@ -5,7 +5,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config('app.name', 'Laravel') }} {{ isset($pageTitle) ? ': ' . $pageTitle : '' }}</title>
+        <!-- HTML Meta Tags -->
+        <meta name="description" content="Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you&#039;re looking to sway voters, boost your busin" />
+
+        <!-- Google / Search Engine Tags -->
+        <meta itemprop="name" content="Lurtsema Communications" />
+        <meta itemprop="description" content="Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you&#039;re looking to sway voters, boost your busin" />
+        <meta itemprop="image" content="https://lurtsemacommunications.com/images/favicon.png" />
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://lurtsemacommunications.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Lurtsema Communications" />
+        <meta property="og:description" content="Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you&#039;re looking to sway voters, boost your busin" />
+        <meta property="og:image" content="https://lurtsemacommunications.com/images/favicon.png" />
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Lurtsema Communications" />
+        <meta name="twitter:description" content="Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you&#039;re looking to sway voters, boost your busin" />
+        <meta name="twitter:image" content="https://lurtsemacommunications.com/images/favicon.png" />
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
