@@ -20,7 +20,7 @@ Route::get('/about-us', [AppController::class, 'aboutUs'])->name('about-us');
 
 Route::get('/services/{service}', [AppController::class, 'services'])->name('services');
 
-Route::get('/contact-us', fn () => view('contact-us'))->name('contact-us');
+Route::get('/contact-us', fn() => view('contact-us', ['pageTitle' => 'Contact Us']))->name('contact-us');
 Route::post('/contact-us', [AppController::class, 'contactUs'])->name('submit.contact-us');
 Route::get('contact-us/download', [AppController::class, 'downloadContactUsResponses'])->name('download.contact-us');
 
