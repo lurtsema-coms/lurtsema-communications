@@ -68,7 +68,7 @@
             </p>
             <div>
               <p>CALL US:</p>
-              <p><span class="font-extrabold text-button-blue">+1 (907) 416-2416 </span></p>
+              <p><span class="font-extrabold text-button-blue">+1 (907) 382-6863</span></p>
             </div>
           </div>
           <div class="flex items-center justify-center gap-5">
@@ -77,7 +77,7 @@
             </p>
             <div>
               <p>EMAIL US:</p>
-              <p><span class="font-extrabold text-button-blue">info@lurtsemacommunications.com</span></p>
+              <p><span class="font-extrabold text-button-blue">joe@lurtsemacommunications.com </span></p>
             </div>
           </div>
         </div>
