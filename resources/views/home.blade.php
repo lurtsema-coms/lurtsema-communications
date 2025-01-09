@@ -109,7 +109,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Social Media Marketing</h3>
-          <p class="text-md">We can hep you utilize all the social media out there to grow your business and connect with your audience.</p>
+          <p class="text-md">We can help you utilize all the social media out there to grow your business and connect with your audience.</p>
         </a>
         <a href="{{ route('services', 'website-development') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
