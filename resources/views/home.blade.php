@@ -133,7 +133,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Political Outreach</h3>
-          <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
+          <p class="text-md">Our team of experts helps you create impactful campaigns to amplify your message and connect with your audience.</p>
         </a>
         <a href="{{ route('services', 'videography') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
