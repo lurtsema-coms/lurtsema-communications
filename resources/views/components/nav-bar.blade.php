@@ -12,8 +12,10 @@
   <div id="nav-list" class="flex-grow hidden lg:inline">
     <div class="flex flex-col items-start justify-between flex-grow gap-5 my-5 lg:flex-row lg:mt-5 lg:mb-0 lg:ml-5">
       <ul class="flex flex-col gap-5 lg:flex-row lg:items-end lg:gap-12 lg:ml-5">
-        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="{{ route('about-us') }}">About Us</a></li>
-        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="{{ route('contact-us') }}">Contact Us</a></li>
+        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="{{ route('home') }}">Home</a></li>
+        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="{{ route('about-us') }}">About</a></li>
+        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="{{ url('/#services') }}">Services</a></li>
+        <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="{{ route('contact-us') }}">Contact</a></li>
         {{-- <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="#services">Services</a></li> --}}
         {{-- <li><a class="text-decoration-none text-nowrap hover:opacity-75" href="#">Campaign USA</a></li> --}}
       </ul>
