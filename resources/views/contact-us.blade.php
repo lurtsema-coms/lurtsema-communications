@@ -77,7 +77,7 @@
             </p>
             <div>
               <p>EMAIL US:</p>
-              <p><span class="font-extrabold text-button-blue">joe@lurtsemacommunications.com </span></p>
+              <p><span class="font-extrabold text-button-blue">info@lurtsemacommunications.com </span></p>
             </div>
           </div>
         </div>
