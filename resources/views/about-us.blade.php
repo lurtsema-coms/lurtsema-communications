@@ -3,7 +3,7 @@
 <div class="flex flex-col items-center justify-center">
   <main class="container mx-auto my-10">
     <h1 class="font-semibold text-center text-7xl" data-aos="fade-down" data-aos-duration="1000">About Us</h1>
-    <h3 class="my-5 text-2xl font-semibold text-center" data-aos="fade-up" data-aos-duration="1000">Looking for more ways to get your voice heard in the digital space?</h3>
+    <h3 class="my-5 text-2xl font-semibold text-center" data-aos="fade-up" data-aos-duration="1000">Looking for more ways to make your voice heard in the digital space?</h3>
     <p class="mt-5 text-lg text-center" data-aos="fade-up" data-aos-duration="1000">When it comes to digital marketing, we’re the partners you need.</p>
     <p class="text-lg text-center" data-aos="fade-up" data-aos-duration="1000">From search engine optimization to social media, we’ve got you covered. </p>
   </main>
