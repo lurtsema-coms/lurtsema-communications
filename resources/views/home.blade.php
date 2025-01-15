@@ -84,7 +84,7 @@
           <h1 class="text-3xl font-bold text-center md:text-left md:text-4xl">Joe Lurtsema</h1>
           <h3 class="text-xl text-center font-besbas md:text-left">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h3>
         </div>
-        <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Business Development Consultant who specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions decisions to achieve their Marketing and Sales goals using modern technological tools that drive revenue growth while increasing margins.</p>
+        <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Business Development Consultant who specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions to achieve their Marketing and Sales goals using modern technological tools that drive revenue growth while increasing margins.</p>
         <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out border rounded-full border-slate-200 hover:text-black hover:bg-slate-200" href="{{ route('contact-us') }}">Consult Now!</a>
       </div>
     </div>
@@ -109,7 +109,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Social Media Marketing</h3>
-          <p class="text-md">We can help you utilize social media platforms to grow your business and connect with your audience.</p>
+          <p class="text-md">We help you leverage social media platforms to grow your business and connect with your audience.</p>
         </a>
         <a href="{{ route('services', 'website-development') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -117,7 +117,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_4.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Website Development</h3>
-          <p class="text-md">We can help you build awesome websites designed to attract traffic and encourage engagement with your content.</p>
+          <p class="text-md">We create engaging websites designed to attract traffic and encourage interaction with your content. </p>
         </a>
         <a href="{{ route('services', 'seo-optimization') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -125,7 +125,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_18.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">SEO Optimization</h3>
-          <p class="text-md">Our SEO specialists can ensure higher search engine rankings and drive more organic traffic to your website.</p>
+          <p class="text-md">Our SEO specialists ensure higher search engine rankings and drive more organic traffic to your website.</p>
         </a>
         <a href="{{ route('services', 'political-outreach') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -133,7 +133,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Political Outreach</h3>
-          <p class="text-md">Our team of experts helps you create impactful campaigns to amplify your message and connect with your audience.</p>
+          <p class="text-md">Our team helps you develop impactful campaigns to amplify your message and connect with your audience.</p>
         </a>
         <a href="{{ route('services', 'videography') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -141,7 +141,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_16.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Videography</h3>
-          <p class="text-md">We offer professional videography services for everything from corporate videos to social media content.</p>
+          <p class="text-md">We provide professional videography services for everything from corporate videos to social media content.</p>
         </a>
         <a href="{{ route('services', 'google-ads') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -149,7 +149,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Google Ads</h3>
-          <p class="text-md">We can help you create and run effective Google Ads campaigns that drive traffic and increase conversions.</p>
+          <p class="text-md">We create and manage effective Google Ads campaigns that drive traffic and boost conversions.</p>
         </a>
         <a href="{{ route('services', 'graphic-design') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -157,7 +157,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_8.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Graphic Design</h3>
-          <p class="text-md">Our talented designers can help you craft stunning visuals to elevate your brand.</p>
+          <p class="text-md">Our talented designers craft stunning visuals to enhance your brand.</p>
         </a>
     </div>
   </div>
