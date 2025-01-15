@@ -17,8 +17,8 @@
         >
           <defs>
             <radialGradient id="gradientId" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-              <stop offset="0%" style="stop-color:#7cc4ff;stop-opacity:1" />
-              <stop offset="100%" style="stop-color:#27556a;stop-opacity:1" />
+              <stop offset="0%" style="stop-color:#a8cfef;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#5aaed4;stop-opacity:1" />
             </radialGradient>
           </defs>
           <text
