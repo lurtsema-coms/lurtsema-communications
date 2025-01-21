@@ -41,8 +41,8 @@
     <div class="container mx-auto">
       <div class="flex flex-col items-center justify-center my-20 gap-y-5">
         <div class="max-w-screen-md">
-          <p class="text-4xl font-semibold text-center text-gray-300" data-aos="fade-up">Our goal is to ensure your website not only ranks higher on search engines but also provides a great user experience.</p>
-          <p class="max-w-screen-sm mx-auto mt-5 text-lg text-center" data-aos="fade-up">By staying up-to-date with the latest SEO trends and algorithms, we help you stay ahead of the competition. Partner with us to boost your online presence and drive more qualified traffic to your site. </p>
+          <p class="text-4xl font-semibold text-center text-gray-300" data-aos="fade-up">From creating eye-catching posts and stories to running targeted ad campaigns, we ensure your brand stands out in the crowded social media landscape.</p>
+          <p class="max-w-screen-sm mx-auto mt-5 text-lg text-center" data-aos="fade-up">Our approach not only increases your online visibility but also fosters a loyal community of followers who are engaged with your brand. Let us help you leverage the full potential of social media to drive engagement and grow your business. </p>
         </div>
         <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out rounded-full bg-button-blue hover:bg-blue-300 hover:text-gray-300 hover:bg-opacity-30" href="{{ route('home') }}#services" data-aos="fade-up">Back To Services</a>
       </div>
