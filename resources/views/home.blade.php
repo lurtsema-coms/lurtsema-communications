@@ -179,7 +179,7 @@
   <div class="container flex flex-col items-center justify-center gap-5 py-10 mx-auto">
     <h1 class="text-4xl font-bold text-center">Let's Connect</h1>
     <h2 class="text-3xl font-semibold text-center">Ready to elevate your communication strategy?</h2>
-    <p class="text-lg text-center">Contact us today to schedule a consultation</p>
+    <p class="text-lg text-center">Contact us today to schedule a FREE consultation.</p>
     <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out rounded-full bg-button-blue hover:opacity-60" href="{{ route('contact-us') }}">Contact Us</a>
   </div>
 </section>
