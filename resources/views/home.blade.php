@@ -84,8 +84,8 @@
           <h1 class="text-3xl font-bold text-center md:text-left md:text-4xl">Joe Lurtsema</h1>
           <h3 class="text-xl text-center font-besbas md:text-left">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h3>
         </div>
-        <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Business Development Consultant who specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions to achieve their Marketing and Sales goals using modern technological tools that drive revenue growth while increasing margins.</p>
-        <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out border rounded-full border-slate-200 hover:text-black hover:bg-slate-200" href="{{ route('contact-us') }}">Consult Now!</a>
+        <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Digital Media Consultant who specializes in Political Campaigns, Digital Marketing, and Business Development. He helps political consultants and candidates win their campaign.</p>
+        <a class="px-5 py-1 font-bold text-center transition-all duration-300 ease-in-out border rounded-full border-slate-200 hover:text-black hover:bg-slate-200" href="{{ route('contact-us') }}">Click Here for Free Consultation</a>
       </div>
     </div>
   </div>
@@ -251,10 +251,10 @@
             slidesPerView: 6,
             spaceBetween: 40,
         },
-        992: {
-            slidesPerView: 8,
-            spaceBetween: 50,
-        },
+        // 992: {
+        //     slidesPerView: 8,
+        //     spaceBetween: 50,
+        // },
     },
   });
 </script>
