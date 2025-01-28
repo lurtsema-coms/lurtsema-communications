@@ -1,6 +1,6 @@
 <section class="bg-black bg-opacity-30">
   <div class="container flex flex-col items-center justify-between gap-3 py-10 mx-auto lg:flex-row lg:items-stretch">
-    <div class="flex flex-col items-start justify-between flex-grow w-full gap-6 md:flex-row md:justify-start md:gap-28 xl:gap-40 text-slate-400">
+    <div class="flex flex-col items-start justify-between flex-grow w-full gap-6 space-y-10 md:space-y-0 md:flex-row md:justify-start md:gap-20 text-slate-400">
       <div class="flex flex-col gap-3">
         <h4 class="text-2xl font-semibold">Marketing</h4>
         <a href="{{ route('services', 'business-consulting') }}" class="underline text-md">Business Consulting</a>
