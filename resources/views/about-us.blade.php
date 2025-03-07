@@ -13,7 +13,7 @@
         <div class="flex items-center justify-between swiper-wrapper">
           @foreach ($team as $member)
           <div class="swiper-slide group custom-radial-gradient-2 relative w-[12rem] aspect-[3/4] rounded-3xl shadow-2xl overflow-hidden ease-in-out duration-200">
-            <img class="absolute object-cover object-center min-w-full min-h-full -bottom-5" src="{{ $member['img_link'] ?? '#' }}" alt="">
+            <img class="absolute object-cover object-center min-w-full min-h-full -bottom-5 {{ $member['scale'] ?? '' }}" src="{{ $member['img_link'] ?? '#' }}" alt="">
             <img class="absolute bottom-0 w-full duration-300 ease-in-out lg:opacity-0 lg:group-hover:opacity-100" src="{{ asset('images/team-photos/effect.webp') }}" alt="">
             <a class="linked-in-profile" href="{{ $member['linked_in'] ?? '#' }}" target="{{ $member['linked_in'] ? '_blank' : '_self' }}">
               <svg class="absolute w-10 h-10 duration-300 ease-in-out right-3 top-3 lg:opacity-0 lg:group-hover:opacity-100 hover:scale-110" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px">

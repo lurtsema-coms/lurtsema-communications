@@ -133,6 +133,19 @@ class AppController extends Controller
                 'img_link' => asset('images/team-photos/team-member-11.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/denisebautista20031213/',
             ],
+            [
+                'name' => 'Joanna Marrie Persia',
+                'title' => 'Appointment Setter/Sales Associate',
+                'img_link' => asset('images/team-photos/team-member-13.webp'),
+                'linked_in' => 'https://www.linkedin.com/in/joanna-marrie-persia-960713267/',
+            ],
+            [
+                'name' => 'Jed Vargas',
+                'title' => 'Graphic Designer',
+                'img_link' => asset('images/team-photos/team-member-14.webp'),
+                'linked_in' => 'https://www.linkedin.com/in/jed-vargas/',
+                'scale' => 'scale-110',
+            ],
         ];
         return view('about-us', $data);
     }
