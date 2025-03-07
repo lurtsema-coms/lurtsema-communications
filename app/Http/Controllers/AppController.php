@@ -106,7 +106,7 @@ class AppController extends Controller
             [
                 'name' => 'Jed Vargas',
                 'title' => 'Graphic Designer',
-                'img_link' => asset('images/team-photos/team-member-14.webp'),
+                'img_link' => asset('images/team-photos/team-member-14.2.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/jed-vargas/',
                 'scale' => 'scale-110',
             ],
