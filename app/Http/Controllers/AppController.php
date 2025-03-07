@@ -80,12 +80,6 @@ class AppController extends Controller
                 'linked_in' => 'https://www.linkedin.com/in/jubie-nebalga-75b99020a/',
             ],
             [
-                'name' => 'Shaine Agonia',
-                'title' => 'Senior Operations Manager',
-                'img_link' => asset('images/team-photos/team-member-02.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/shaineagonia/',
-            ],
-            [
                 'name' => 'Heaven Limin',
                 'title' => 'Senior Creative Manager',
                 'img_link' => asset('images/team-photos/team-member-04.webp'),
@@ -93,7 +87,7 @@ class AppController extends Controller
             ],
             [
                 'name' => 'Irene Martinez',
-                'title' => 'Executive Assistant',
+                'title' => 'Junior Operations Manager',
                 'img_link' => asset('images/team-photos/team-member-12.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/irene-martinez-354353194/',
             ],
@@ -102,6 +96,19 @@ class AppController extends Controller
                 'title' => 'Video Editor',
                 'img_link' => asset('images/team-photos/team-member-05.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/joseph-daquioag-a24a8323b/',
+            ],
+            [
+                'name' => 'Denise Bautista',
+                'title' => 'Senior Copywriter',
+                'img_link' => asset('images/team-photos/team-member-11.webp'),
+                'linked_in' => 'https://www.linkedin.com/in/denisebautista20031213/',
+            ],
+            [
+                'name' => 'Jed Vargas',
+                'title' => 'Graphic Designer',
+                'img_link' => asset('images/team-photos/team-member-14.webp'),
+                'linked_in' => 'https://www.linkedin.com/in/jed-vargas/',
+                'scale' => 'scale-110',
             ],
             [
                 'name' => 'Manny Dagondon',
@@ -126,25 +133,6 @@ class AppController extends Controller
                 'title' => 'Full Stack Web Developer',
                 'img_link' => asset('images/team-photos/team-member-08.webp'),
                 'linked_in' => 'https://www.linkedin.com/in/patrick-lester-punzalan-077546243/',
-            ],
-            [
-                'name' => 'Denise Bautista',
-                'title' => 'Junior Copywriter',
-                'img_link' => asset('images/team-photos/team-member-11.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/denisebautista20031213/',
-            ],
-            [
-                'name' => 'Joanna Marrie Persia',
-                'title' => 'Appointment Setter/Sales Associate',
-                'img_link' => asset('images/team-photos/team-member-13.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/joanna-marrie-persia-960713267/',
-            ],
-            [
-                'name' => 'Jed Vargas',
-                'title' => 'Graphic Designer',
-                'img_link' => asset('images/team-photos/team-member-14.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/jed-vargas/',
-                'scale' => 'scale-110',
             ],
         ];
 
