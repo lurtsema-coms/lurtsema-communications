@@ -53,14 +53,14 @@
     <div class="flex flex-col items-start justify-start flex-grow w-full max-w-screen-sm xl:self-start gap-y-10" data-aos="flip-left" data-aos-duration="1000">
       <form action="{{ route('submit.contact-us') }}" method="POST" class="flex flex-col items-start justify-center w-full gap-y-5" autocomplete="off">
         @csrf
-          <p class="text-2xl font-semibold">How can we help you?</p>
+          <p class="text-2xl font-semibold">How can we assist you?</p>
           <p class="text-lg font-semibold">Fill out the form below, and we will get back to you as soon as possible.</p>
           <input name="name" type="text" placeholder="Name" class="w-full p-2 text-black border-2 rounded-md active:outline-none focus:outline-none" required>
           <input name="email" type="email" placeholder="Email" class="w-full p-2 text-black border-2 rounded-md active:outline-none focus:outline-none" required>
           <textarea name="message" placeholder="Message" rows="5" class="w-full p-2 text-black border-2 rounded-md resize-none active:outline-none focus:outline-none" required></textarea>
           <button class="px-5 py-1 font-bold transition-all duration-300 ease-in-out rounded-full bg-button-blue hover:bg-blue-300 hover:text-gray-300 hover:bg-opacity-30" >Submit</button>
         </form>
-        <p class="text-lg font-semibold">Alternatively, you can reach us via call or email. Don't be shy to say hello with us.</p>
+        <p class="text-lg font-semibold">Alternatively, you reach us by phone or email. Don't be shy—feel free to say hello!</p>
         <div class="flex flex-col items-start justify-between w-full gap-5 2xl:flex-row">
           <div class="flex items-center justify-center gap-5">
             <p>
@@ -68,7 +68,7 @@
             </p>
             <div>
               <p>CALL US:</p>
-              <p><span class="font-extrabold text-button-blue">+1 (907) 416-2416 </span></p>
+              <p><span class="font-extrabold text-button-blue">+1 (907) 382-6863</span></p>
             </div>
           </div>
           <div class="flex items-center justify-center gap-5">
@@ -77,7 +77,7 @@
             </p>
             <div>
               <p>EMAIL US:</p>
-              <p><span class="font-extrabold text-button-blue">info@lurtsemacommunications.com</span></p>
+              <p><span class="font-extrabold text-button-blue">info@lurtsemacommunications.com </span></p>
             </div>
           </div>
         </div>

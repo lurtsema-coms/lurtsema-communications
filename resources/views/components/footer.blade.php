@@ -1,6 +1,6 @@
 <section class="bg-black bg-opacity-30">
   <div class="container flex flex-col items-center justify-between gap-3 py-10 mx-auto lg:flex-row lg:items-stretch">
-    <div class="flex flex-col items-start justify-between flex-grow w-full gap-6 md:flex-row md:justify-around lg:justify-between text-slate-400">
+    <div class="flex flex-col items-start justify-between flex-grow w-full gap-6 space-y-10 md:space-y-0 md:flex-row md:justify-start md:gap-20 text-slate-400">
       <div class="flex flex-col gap-3">
         <h4 class="text-2xl font-semibold">Marketing</h4>
         <a href="{{ route('services', 'business-consulting') }}" class="underline text-md">Business Consulting</a>
@@ -15,13 +15,6 @@
         <a href="{{ route('services', 'website-development') }}" class="underline text-md">Website Development</a>
         <a href="{{ route('services', 'graphic-design') }}" class="underline text-md">Graphic Design</a>
         <p class="text-md">Logo Development</p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <h4 class="text-2xl font-semibold">Other</h4>
-        <p class="text-md">Solar Panels</p>
-        <p class="text-md">Real Estate Consulting</p>
-        <p class="text-md">Sales Training</p>
-        <p class="text-md">Campaign USA</p>
       </div>
     </div>
     <div class="flex flex-col items-end justify-between w-full">

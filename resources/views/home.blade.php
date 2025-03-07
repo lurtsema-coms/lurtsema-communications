@@ -17,8 +17,8 @@
         >
           <defs>
             <radialGradient id="gradientId" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-              <stop offset="0%" style="stop-color:#66a0d0;stop-opacity:1" />
-              <stop offset="100%" style="stop-color:#0e3243;stop-opacity:1" />
+              <stop offset="0%" style="stop-color:#a8cfef;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#5aaed4;stop-opacity:1" />
             </radialGradient>
           </defs>
           <text
@@ -69,7 +69,7 @@
 <section id="about" data-aos="fade-up" data-aos-duration="1000">
   <div class="container flex flex-col items-center justify-center mx-auto my-10">
     <h1 class="mb-5 text-2xl font-bold text-center md:text-3xl">About Lurtsema Communications</h1>
-    <p class="text-lg text-center">Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you're looking to sway voters, boost your business' brand, or captivate an audience from the stage, our team is dedicated to elevating your message and amplifying your voice.</p>
+    <p class="text-lg text-center">Lurtsema Communications understands the power of words and the impact of a strong digital presence. Whether you're looking to sway voters, boost your business's brand, or captivate an audience from the stage, our team is dedicated to elevating your message and amplifying your voice.</p>
     <a class="px-5 py-1 my-5 font-bold text-center transition-all duration-300 ease-in-out border rounded-full border-slate-100 hover:text-black hover:bg-slate-200" href="{{ route('about-us') }}">Find Out More</a>
   </div>
 </section>
@@ -84,8 +84,8 @@
           <h1 class="text-3xl font-bold text-center md:text-left md:text-4xl">Joe Lurtsema</h1>
           <h3 class="text-xl text-center font-besbas md:text-left">CEO/FOUNDER OF LURTSEMA COMMUNICATIONS</h3>
         </div>
-        <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Business Development Consultant that specializes in Digital Marketing & Professional Sales. He helps business leaders make exceptional decisions for reaching their Marketing & Sales goals using modern technological tools that help companies grow their revenue while increasing their margins.</p>
-        <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out border rounded-full border-slate-200 hover:text-black hover:bg-slate-200" href="{{ route('contact-us') }}">Consult Now!</a>
+        <p class="text-center md:text-left">Joseph Lurtsema is an award-winning Digital Media Consultant who specializes in Political Campaigns, Digital Marketing, and Business Development. He helps political consultants and candidates win their campaigns.</p>
+        <a class="px-5 py-1 font-bold text-center transition-all duration-300 ease-in-out border rounded-full border-slate-200 hover:text-black hover:bg-slate-200" href="{{ route('contact-us') }}">Click Here for Free Consultation</a>
       </div>
     </div>
   </div>
@@ -93,7 +93,7 @@
 <section id="services" class="mt-36">
   <div class="container mx-auto my-10" data-aos="fade-up">
     <h1 class="text-4xl font-bold">Our Services</h1>
-    <p class="max-w-[800px] text-lg">We specialize in delivering comprehensive marketing solutions and creative services tailored to elevate your brands's presence in today's competetive landscape.</p>
+    <p class="max-w-[800px] text-lg">We specialize in delivering comprehensive marketing solutions and creative services tailored to elevate your brand's presence in today's competitive landscape.</p>
     <div class="grid gap-8 my-10 md:grid-cols-2 xl:grid-cols-4">
         <a href="{{ route('services', 'business-consulting') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -101,7 +101,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_6.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Business Consulting</h3>
-          <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
+          <p class="text-md">Let our team of experts optimize your business operations and maximize your profits.</p>
         </a>
         <a href="{{ route('services', 'social-media-marketing') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -109,7 +109,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_14.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Social Media Marketing</h3>
-          <p class="text-md">We can hep you utilize all the social media out there to grow your business and connect with your audience.</p>
+          <p class="text-md">We help you leverage social media platforms to grow your business and connect with your audience.</p>
         </a>
         <a href="{{ route('services', 'website-development') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -117,7 +117,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_4.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Website Development</h3>
-          <p class="text-md">We can help you build an awesome website that will get traffic and clicks to your content.</p>
+          <p class="text-md">We create engaging websites designed to attract traffic and encourage interaction with your content. </p>
         </a>
         <a href="{{ route('services', 'seo-optimization') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -125,7 +125,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_18.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">SEO Optimization</h3>
-          <p class="text-md">Our SEO specialists can help you rank higher on search engines and drive more organic traffic to your website.</p>
+          <p class="text-md">Our SEO specialists ensure higher search engine rankings and drive more organic traffic to your website.</p>
         </a>
         <a href="{{ route('services', 'political-outreach') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -133,7 +133,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_10.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Political Outreach</h3>
-          <p class="text-md">Let our team of experts help your business operations and maximize your profits.</p>
+          <p class="text-md">Our team helps you develop impactful campaigns to amplify your message and connect with your audience.</p>
         </a>
         <a href="{{ route('services', 'videography') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -141,7 +141,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_16.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Videography</h3>
-          <p class="text-md">We offer professional videography services for everything from corporate videos to social media content.</p>
+          <p class="text-md">We provide professional videography services for everything from corporate videos to social media content.</p>
         </a>
         <a href="{{ route('services', 'google-ads') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -149,7 +149,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_12.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Google Ads</h3>
-          <p class="text-md">We can help you create and run effective Google Ads campagins that drive traffic and increase selling conversions.</p>
+          <p class="text-md">We create and manage effective Google Ads campaigns that drive traffic and boost conversions.</p>
         </a>
         <a href="{{ route('services', 'graphic-design') }}" class="flex flex-col gap-3 p-5 duration-300 ease-in-out border cursor-pointer group border-slate-200 hover:bg-slate-200 hover:text-black hover:-translate-y-3 rounded-2xl" data-aos="flip-left">
           <div class="max-w-[55px]">
@@ -157,7 +157,7 @@
             <img class="hidden w-full group-hover:inline" src="{{ asset('images/Icons/Icons_8.png') }}" alt="">
           </div>
           <h3 class="text-lg font-bold">Graphic Design</h3>
-          <p class="text-md">Our talented designers can help you create and develop beautiful graphics to elevate your brand.</p>
+          <p class="text-md">Our talented designers craft stunning visuals to enhance your brand.</p>
         </a>
     </div>
   </div>
@@ -179,7 +179,7 @@
   <div class="container flex flex-col items-center justify-center gap-5 py-10 mx-auto">
     <h1 class="text-4xl font-bold text-center">Let's Connect</h1>
     <h2 class="text-3xl font-semibold text-center">Ready to elevate your communication strategy?</h2>
-    <p class="text-lg text-center">Contact us today to schedule a consultation</p>
+    <p class="text-lg text-center">Contact us today to schedule a FREE consultation.</p>
     <a class="px-5 py-1 font-bold transition-all duration-300 ease-in-out rounded-full bg-button-blue hover:opacity-60" href="{{ route('contact-us') }}">Contact Us</a>
   </div>
 </section>
@@ -251,10 +251,10 @@
             slidesPerView: 6,
             spaceBetween: 40,
         },
-        992: {
-            slidesPerView: 8,
-            spaceBetween: 50,
-        },
+        // 992: {
+        //     slidesPerView: 8,
+        //     spaceBetween: 50,
+        // },
     },
   });
 </script>

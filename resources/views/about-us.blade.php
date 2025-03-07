@@ -3,7 +3,7 @@
 <div class="flex flex-col items-center justify-center">
   <main class="container mx-auto my-10">
     <h1 class="font-semibold text-center text-7xl" data-aos="fade-down" data-aos-duration="1000">About Us</h1>
-    <h3 class="my-5 text-2xl font-semibold text-center" data-aos="fade-up" data-aos-duration="1000">Looking for more ways to get your voice heard in the digital space?</h3>
+    <h3 class="my-5 text-2xl font-semibold text-center" data-aos="fade-up" data-aos-duration="1000">Looking for more ways to make your voice heard in the digital space?</h3>
     <p class="mt-5 text-lg text-center" data-aos="fade-up" data-aos-duration="1000">When it comes to digital marketing, we’re the partners you need.</p>
     <p class="text-lg text-center" data-aos="fade-up" data-aos-duration="1000">From search engine optimization to social media, we’ve got you covered. </p>
   </main>
@@ -33,9 +33,9 @@
     </div>
   </section>
   <section class="container mx-auto my-10">
-    <h1 class="mb-10 text-5xl font-semibold text-center" data-aos="fade-up">ITS VISION FOR THE FUTURE? </h1>
-    <p class="max-w-screen-lg mx-auto my-5 text-2xl font-bold text-center" data-aos="fade-up">Joseph Lurtsema’s vision for Lurtsema Communications is to be the highest quality and most cost-effective marketing agency in Alaska. </p>
-    <p class="max-w-screen-lg mx-auto text-lg text-center" data-aos="fade-up">Lurtsema Communications started as a sole proprietorship. Joseph used to do all the graphic design, web development, videography, strategy, social media management, etc. He learned quickly that there are only 24 hours in a day, and he is only one person. His business flourished in 2018 but he hit a wall and his clients started leaving the company. In 2019, he learned the power of delegation and built a team from the ground up. He now has individuals that specialize in those different skills so that Lurtsema Communications’ clients are getting the best work possible.</p>
+    <h1 class="mb-10 text-5xl font-semibold text-center" data-aos="fade-up">Our Vision for the Future</h1>
+    <p class="max-w-screen-lg mx-auto my-5 text-2xl font-bold text-center" data-aos="fade-up">Joseph Lurtsema’s vision for Lurtsema Communications is to become the highest-quality and most cost-effective marketing agency in Alaska.</p>
+    <p class="max-w-screen-lg mx-auto text-lg text-center" data-aos="fade-up">Lurtsema Communications began as a sole proprietorship. Joseph handled everything—from graphic design and web development to videography, strategy, and social media management. However, he quickly realized that there are only 24 hours in a day, and he was just one person. In 2018, the business flourished, but by the same token, Joseph hit a wall. As he struggled to keep up, clients began leaving the company. By 2019, he discovered the power of delegation and began building a team from the ground up. Today, Lurtsema Communications is supported by skilled individuals who specialize in different areas, ensuring that clients receive the best work possible.</p>
   </section>
 </div>
 @endsection

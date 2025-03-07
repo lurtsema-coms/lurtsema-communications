@@ -43,21 +43,21 @@ class AppController extends Controller
     public function services($service)
     {
         if ($service === 'business-consulting') {
-            return view('services.business-consulting');
+            return view('services.business-consulting', ['pageTitle' => 'Services - Business Consulting']);
         } else if ($service === 'social-media-marketing') {
-            return view('services.social-media-marketing');
+            return view('services.social-media-marketing', ['pageTitle' => 'Services - Social Media Marketing']);
         } else if ($service === 'website-development') {
-            return view('services.website-development');
+            return view('services.website-development', ['pageTitle' => 'Services - Website Development']);
         } else if ($service === 'seo-optimization') {
-            return view('services.seo-optimization');
+            return view('services.seo-optimization', ['pageTitle' => 'Services - SEO Optimization']);
         } else if ($service === 'political-outreach') {
-            return view('services.political-outreach');
+            return view('services.political-outreach', ['pageTitle' => 'Services - Political Outreach']);
         } else if ($service === 'videography') {
-            return view('services.videography');
+            return view('services.videography', ['pageTitle' => 'Services - Videography']);
         } else if ($service === 'google-ads') {
-            return view('services.google-ads');
+            return view('services.google-ads', ['pageTitle' => 'Services - Google Ads']);
         } else if ($service === 'graphic-design') {
-            return view('services.graphic-design');
+            return view('services.graphic-design', ['pageTitle' => 'Services - Graphic Design']);
         } else {
             abort(404);
         }
@@ -147,6 +147,8 @@ class AppController extends Controller
                 'scale' => 'scale-110',
             ],
         ];
+
+        $data['pageTitle'] = 'About Us';
         return view('about-us', $data);
     }
 
