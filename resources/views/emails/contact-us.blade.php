@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Email</title>
     <style>
@@ -8,6 +9,7 @@
         }
     </style>
 </head>
+
 <body>
     <h1>New Customer Inquiry</h1>
     <p style="padding-top: 15px; padding-bottom: 15px">Your contact form received a new response.</p>
@@ -22,10 +24,15 @@
                 <td>{{ $email }}</td>
             </tr>
             <tr>
+                <td><strong>Phone:</strong></td>
+                <td>{{ $phone }}</td>
+            </tr>
+            <tr>
                 <td><strong>Message:</strong></td>
                 <td>{{ $form_message }}</td>
             </tr>
         </tbody>
     </table>
 </body>
+
 </html>

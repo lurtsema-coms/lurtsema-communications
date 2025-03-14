@@ -144,12 +144,14 @@ class AppController extends Controller
     {
         $name = $request->name;
         $email = $request->email;
+        $phone = $request->phone;
         $message = $request->message;
 
         try {
             $details = [
                 'name' => $name,
                 'email' => $email,
+                'phone' => $phone,
                 'form_message' => $message,
             ];
             Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactUsMail($details));
