@@ -117,12 +117,6 @@ class AppController extends Controller
                 'linked_in' => 'https://www.linkedin.com/in/manny-lloyd-dagondon-72505873/',
             ],
             [
-                'name' => 'Fillinor Gunio',
-                'title' => 'Full Stack Web Developer',
-                'img_link' => asset('images/team-photos/team-member-06.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/fillinor-gunio-57347a137/',
-            ],
-            [
                 'name' => 'Gabriel Quing',
                 'title' => 'Full Stack Web Developer',
                 'img_link' => asset('images/team-photos/team-member-07.webp'),
