@@ -111,12 +111,6 @@ class AppController extends Controller
                 'scale' => 'scale-110',
             ],
             [
-                'name' => 'Manny Dagondon',
-                'title' => 'Junior Graphic Designer',
-                'img_link' => asset('images/team-photos/team-member-10.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/manny-lloyd-dagondon-72505873/',
-            ],
-            [
                 'name' => 'Gabriel Quing',
                 'title' => 'Full Stack Web Developer',
                 'img_link' => asset('images/team-photos/team-member-07.webp'),
