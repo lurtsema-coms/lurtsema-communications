@@ -98,12 +98,6 @@ class AppController extends Controller
                 'linked_in' => 'https://www.linkedin.com/in/joseph-daquioag-a24a8323b/',
             ],
             [
-                'name' => 'Denise Bautista',
-                'title' => 'Senior Copywriter',
-                'img_link' => asset('images/team-photos/team-member-11.webp'),
-                'linked_in' => 'https://www.linkedin.com/in/denisebautista20031213/',
-            ],
-            [
                 'name' => 'Jed Vargas',
                 'title' => 'Graphic Designer',
                 'img_link' => asset('images/team-photos/team-member-14.2.webp'),
